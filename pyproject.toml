@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostsubs"
+version = "0.1.0"
+description = "Drop a bank or card statement CSV, get one line a month: what you pay on repeat, what went up, what renews soon. Named by a local Gemma 4, counted by plain code."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Vinicius Pereira" }]
+dependencies = []
+keywords = ["subscriptions", "bank-statement", "csv", "personal-finance", "ollama", "gemma", "local-llm"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+ghostsubs = "ghostsubs.cli:main"
+
+[tool.setuptools]
+packages = ["ghostsubs"]
+
+[tool.setuptools.package-data]
+ghostsubs = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]

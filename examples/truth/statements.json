@@ -1,0 +1,516 @@
+{
+ "bank-a.csv": {
+  "as_of": "2026-10-16",
+  "series": [
+   {
+    "merchant": [
+     "Netflix"
+    ],
+    "cadence": "monthly",
+    "amount": "44.90",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2026-09-06",
+      "39.90",
+      "44.90"
+     ]
+    ],
+    "note": "price increase; two descriptor variants"
+   },
+   {
+    "merchant": [
+     "Spotify"
+    ],
+    "cadence": "monthly",
+    "amount": "21.90",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "three descriptor variants"
+   },
+   {
+    "merchant": [
+     "Max",
+     "HBO Max"
+    ],
+    "cadence": "monthly",
+    "amount": "34.90",
+    "bucket": "subscription",
+    "status": "active",
+    "trial": "1.99",
+    "new": true,
+    "note": "trial then paid, new"
+   },
+   {
+    "merchant": [
+     "Globoplay"
+    ],
+    "cadence": "monthly",
+    "amount": "22.90",
+    "bucket": "subscription",
+    "status": "missing",
+    "note": "cancelled after August"
+   },
+   {
+    "merchant": [
+     "Amazon Prime",
+     "Prime",
+     "Amazon"
+    ],
+    "cadence": "monthly",
+    "amount": "19.90",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "glued descriptor"
+   },
+   {
+    "merchant": [
+     "iFood Club",
+     "iFood"
+    ],
+    "cadence": "monthly",
+    "amount": "5.95",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "membership among food orders"
+   },
+   {
+    "merchant": [
+     "Uber One",
+     "Uber"
+    ],
+    "cadence": "monthly",
+    "amount": "9.90",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "membership among rides"
+   },
+   {
+    "merchant": [
+     "Smart Fit"
+    ],
+    "cadence": "monthly",
+    "amount": "129.90",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "Imobiliária Horizonte",
+     "Horizonte"
+    ],
+    "cadence": "monthly",
+    "amount": "2350.00",
+    "bucket": "other",
+    "status": "active",
+    "note": "rent"
+   },
+   {
+    "merchant": [
+     "Vivo Fibra",
+     "Vivo"
+    ],
+    "cadence": "monthly",
+    "amount": "119.99",
+    "bucket": "other",
+    "status": "active",
+    "note": "internet bill"
+   },
+   {
+    "merchant": [
+     "Porto Seguro",
+     "Porto Seguro Auto"
+    ],
+    "cadence": "monthly",
+    "amount": "189.40",
+    "bucket": "other",
+    "status": "active",
+    "note": "insurance bill"
+   }
+  ]
+ },
+ "card-b.csv": {
+  "as_of": "2026-10-14",
+  "series": [
+   {
+    "merchant": [
+     "Adobe",
+     "Adobe Creative Cloud"
+    ],
+    "cadence": "yearly",
+    "amount": "239.88",
+    "bucket": "subscription",
+    "status": "active",
+    "renews_in": 9,
+    "note": "yearly, renews soon"
+   },
+   {
+    "merchant": [
+     "Amazon Prime",
+     "Prime",
+     "Amazon"
+    ],
+    "cadence": "yearly",
+    "amount": "139.00",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "yearly among store purchases"
+   },
+   {
+    "merchant": [
+     "Netflix"
+    ],
+    "cadence": "monthly",
+    "amount": "17.99",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2025-01-21",
+      "15.49",
+      "17.99"
+     ]
+    ]
+   },
+   {
+    "merchant": [
+     "Hulu"
+    ],
+    "cadence": "monthly",
+    "amount": "17.99",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2025-10-09",
+      "14.99",
+      "17.99"
+     ]
+    ]
+   },
+   {
+    "merchant": [
+     "Spotify"
+    ],
+    "cadence": "monthly",
+    "amount": "12.99",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2026-09-04",
+      "11.99",
+      "12.99"
+     ]
+    ]
+   },
+   {
+    "merchant": [
+     "YouTube Premium",
+     "YouTube"
+    ],
+    "cadence": "monthly",
+    "amount": "13.99",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "three descriptor variants"
+   },
+   {
+    "merchant": [
+     "Audible"
+    ],
+    "cadence": "monthly",
+    "amount": "14.95",
+    "bucket": "subscription",
+    "status": "active",
+    "trial": "0.99",
+    "new": true,
+    "note": "trial then paid, new"
+   },
+   {
+    "merchant": [
+     "Max",
+     "HBO Max"
+    ],
+    "cadence": "monthly",
+    "amount": "15.99",
+    "bucket": "subscription",
+    "status": "missing",
+    "note": "cancelled after August"
+   },
+   {
+    "merchant": [
+     "Costco"
+    ],
+    "cadence": "yearly",
+    "amount": "65.00",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "membership among weekly shopping"
+   },
+   {
+    "merchant": [
+     "HelloFresh"
+    ],
+    "cadence": "weekly",
+    "amount": "69.99",
+    "bucket": "subscription",
+    "status": "missing",
+    "note": "weekly, stopped in July"
+   },
+   {
+    "merchant": [
+     "Planet Fitness"
+    ],
+    "cadence": "monthly",
+    "amount": "24.99",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "Planet Fitness"
+    ],
+    "cadence": "yearly",
+    "amount": "49.00",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "yearly fee at the same merchant as the monthly one"
+   },
+   {
+    "merchant": [
+     "OpenAI",
+     "ChatGPT",
+     "OpenAI ChatGPT"
+    ],
+    "cadence": "monthly",
+    "amount": "20.00",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "New York Times",
+     "The New York Times",
+     "NYTimes"
+    ],
+    "cadence": "monthly",
+    "amount": "25.00",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2025-08-06",
+      "4.00",
+      "25.00"
+     ]
+    ],
+    "note": "intro rate ends"
+   },
+   {
+    "merchant": [
+     "Apple",
+     "iCloud"
+    ],
+    "cadence": "monthly",
+    "amount": "2.99",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "one app purchase on the same descriptor"
+   },
+   {
+    "merchant": [
+     "Verizon",
+     "Verizon Wireless"
+    ],
+    "cadence": "monthly",
+    "amount": "85.00",
+    "bucket": "other",
+    "status": "active",
+    "note": "phone bill"
+   },
+   {
+    "merchant": [
+     "GEICO",
+     "GEICO Auto Insurance"
+    ],
+    "cadence": "monthly",
+    "amount": "132.40",
+    "bucket": "other",
+    "status": "active",
+    "note": "insurance bill"
+   }
+  ]
+ },
+ "export-c.csv": {
+  "as_of": "2026-10-30",
+  "series": [
+   {
+    "merchant": [
+     "Deezer"
+    ],
+    "cadence": "monthly",
+    "amount": "22.90",
+    "bucket": "subscription",
+    "status": "active",
+    "note": "two spellings"
+   },
+   {
+    "merchant": [
+     "PlayStation",
+     "PlayStation Network",
+     "PlayStation Plus"
+    ],
+    "cadence": "quarterly",
+    "amount": "119.90",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "Crunchyroll"
+    ],
+    "cadence": "monthly",
+    "amount": "19.99",
+    "bucket": "subscription",
+    "status": "active",
+    "changes": [
+     [
+      "2026-09-10",
+      "14.99",
+      "19.99"
+     ]
+    ]
+   },
+   {
+    "merchant": [
+     "Google One",
+     "Google"
+    ],
+    "cadence": "monthly",
+    "amount": "9.99",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "Canva"
+    ],
+    "cadence": "yearly",
+    "amount": "289.90",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "Duolingo"
+    ],
+    "cadence": "monthly",
+    "amount": "29.90",
+    "bucket": "subscription",
+    "status": "missing",
+    "note": "cancelled in June"
+   },
+   {
+    "merchant": [
+     "Meli+",
+     "Meli Mais",
+     "Mercado Livre",
+     "Melimais"
+    ],
+    "cadence": "monthly",
+    "amount": "17.99",
+    "bucket": "subscription",
+    "status": "active"
+   }
+  ]
+ },
+ "bank-d.csv": {
+  "as_of": "2026-09-30",
+  "series": [
+   {
+    "merchant": [
+     "Oakwood Property Management",
+     "Oakwood"
+    ],
+    "cadence": "monthly",
+    "amount": "2150.00",
+    "bucket": "other",
+    "status": "active",
+    "note": "rent"
+   },
+   {
+    "merchant": [
+     "Quillmont Auto Financial Services",
+     "Quillmont Auto Financial",
+     "Quillmont Auto",
+     "Quillmont"
+    ],
+    "cadence": "monthly",
+    "amount": "412.37",
+    "bucket": "other",
+    "status": "active",
+    "note": "car loan"
+   },
+   {
+    "merchant": [
+     "Transfer to savings",
+     "Savings",
+     "Transfer"
+    ],
+    "cadence": "monthly",
+    "amount": "500.00",
+    "bucket": "other",
+    "status": "active",
+    "note": "transfer to own savings"
+   },
+   {
+    "merchant": [
+     "Anytime Fitness"
+    ],
+    "cadence": "monthly",
+    "amount": "41.99",
+    "bucket": "subscription",
+    "status": "active"
+   },
+   {
+    "merchant": [
+     "City of Ashbury",
+     "City of Ashbury Water",
+     "City of Ashbury Water Utility",
+     "City of Ashbury Water Utilities",
+     "Ashbury Water"
+    ],
+    "cadence": "quarterly",
+    "amount": "96.00",
+    "bucket": "other",
+    "status": "active",
+    "note": "quarterly water bill"
+   },
+   {
+    "merchant": [
+     "Prudential",
+     "Prudential Insurance"
+    ],
+    "cadence": "monthly",
+    "amount": "58.20",
+    "bucket": "other",
+    "status": "active",
+    "note": "insurance"
+   },
+   {
+    "merchant": [
+     "SiriusXM",
+     "Sirius XM",
+     "Sirius XM Radio"
+    ],
+    "cadence": "monthly",
+    "amount": "10.99",
+    "bucket": "subscription",
+    "status": "missing",
+    "note": "cancelled after July"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1394 @@
+[
+ {
+  "descriptor": "PAYPAL *SPOTIFY 4025550134",
+  "merchant": "Spotify",
+  "accept": [
+   "Spotify"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "EBN*SPOTIFY",
+  "merchant": "Spotify",
+  "accept": [
+   "Spotify"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "SPOTIFY AB STOCKHOLM SE",
+  "merchant": "Spotify",
+  "accept": [
+   "Spotify"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "Spotify USA",
+  "merchant": "Spotify",
+  "accept": [
+   "Spotify"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "SPOTIFY P2C4E6G8A0",
+  "merchant": "Spotify",
+  "accept": [
+   "Spotify"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NETFLIX.COM",
+  "merchant": "Netflix",
+  "accept": [
+   "Netflix"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NETFLIX ENTRETENIMENTO",
+  "merchant": "Netflix",
+  "accept": [
+   "Netflix",
+   "Netflix Entretenimento"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NETFLIX.COM 866-555-0142 CA",
+  "merchant": "Netflix",
+  "accept": [
+   "Netflix"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NETFLIX.COM          LOS GATOS    CA",
+  "merchant": "Netflix",
+  "accept": [
+   "Netflix"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "COMPRA CARTAO NETFLIX ENTRETENIMENT",
+  "merchant": "Netflix",
+  "accept": [
+   "Netflix",
+   "Netflix Entretenimento"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "HULU 877-555-0199 CA",
+  "merchant": "Hulu",
+  "accept": [
+   "Hulu"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "HLU*HULU 8005550163-U",
+  "merchant": "Hulu",
+  "accept": [
+   "Hulu"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DM *HBOMAX",
+  "merchant": "Max",
+  "accept": [
+   "Max",
+   "HBO Max"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "HELP.MAX.COM",
+  "merchant": "Max",
+  "accept": [
+   "Max",
+   "HBO Max"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DISNEY PLUS 888-555-0111",
+  "merchant": "Disney+",
+  "accept": [
+   "Disney+",
+   "Disney Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DISNEYPLUS*TRIAL",
+  "merchant": "Disney+",
+  "accept": [
+   "Disney+",
+   "Disney Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DISNEY PLU*2K3J4L",
+  "merchant": "Disney+",
+  "accept": [
+   "Disney+",
+   "Disney Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PAYPAL *DISNEYPLUS 4025550134",
+  "merchant": "Disney+",
+  "accept": [
+   "Disney+",
+   "Disney Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PARAMOUNT+ 855-555-0144",
+  "merchant": "Paramount+",
+  "accept": [
+   "Paramount+",
+   "Paramount Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PEACOCK 8005550148",
+  "merchant": "Peacock",
+  "accept": [
+   "Peacock",
+   "Peacock TV"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GLOBOPLAY",
+  "merchant": "Globoplay",
+  "accept": [
+   "Globoplay"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GLOBO.COM*GLOBOPLAY",
+  "merchant": "Globoplay",
+  "accept": [
+   "Globoplay"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *YouTubePremium g.co/helppay#",
+  "merchant": "YouTube Premium",
+  "accept": [
+   "YouTube Premium",
+   "YouTube"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *YouTube Premium",
+  "merchant": "YouTube Premium",
+  "accept": [
+   "YouTube Premium",
+   "YouTube"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "YOUTUBEPREMIUM GOOGLE.COM CA",
+  "merchant": "YouTube Premium",
+  "accept": [
+   "YouTube Premium",
+   "YouTube"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *YOUTUBE TV",
+  "merchant": "YouTube TV",
+  "accept": [
+   "YouTube TV"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *Google One",
+  "merchant": "Google One",
+  "accept": [
+   "Google One"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *GOOGLE STORAGE",
+  "merchant": "Google One",
+  "accept": [
+   "Google One",
+   "Google Storage",
+   "Google"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GOOGLE *Duolingo",
+  "merchant": "Duolingo",
+  "accept": [
+   "Duolingo"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "APPLE.COM/BILL 866-555-0177 CA",
+  "merchant": "Apple",
+  "accept": [
+   "Apple",
+   "iCloud",
+   "Apple Services"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "APPLE.COM/BILL",
+  "merchant": "Apple",
+  "accept": [
+   "Apple",
+   "Apple Services"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ITUNES.COM/BILL",
+  "merchant": "Apple",
+  "accept": [
+   "Apple",
+   "iTunes"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DEEZER  PREMIUM",
+  "merchant": "Deezer",
+  "accept": [
+   "Deezer",
+   "Deezer Premium"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "Deezer Premium  SAO PAULO",
+  "merchant": "Deezer",
+  "accept": [
+   "Deezer",
+   "Deezer Premium"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "CRUNCHYROLL*MEMBERSHIP",
+  "merchant": "Crunchyroll",
+  "accept": [
+   "Crunchyroll"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "EBN*CRUNCHYROLL",
+  "merchant": "Crunchyroll",
+  "accept": [
+   "Crunchyroll"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "SXM*SIRIUSXM.COM/ACCT",
+  "merchant": "SiriusXM",
+  "accept": [
+   "SiriusXM",
+   "Sirius XM",
+   "Sirius XM Radio"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "Audible*AB12C3DE4",
+  "merchant": "Audible",
+  "accept": [
+   "Audible"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "Amazon Prime*K82LP0Q1",
+  "merchant": "Amazon Prime",
+  "accept": [
+   "Amazon Prime",
+   "Prime",
+   "Amazon"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "AMAZONPRIMEBR",
+  "merchant": "Amazon Prime",
+  "accept": [
+   "Amazon Prime",
+   "Prime",
+   "Amazon"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PRIME VIDEO CHANNELS",
+  "merchant": "Prime Video",
+  "accept": [
+   "Prime Video",
+   "Amazon Prime Video",
+   "Amazon Prime",
+   "Prime Video Channels"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "Kindle Unltd*AB12CD",
+  "merchant": "Kindle Unlimited",
+  "accept": [
+   "Kindle Unlimited",
+   "Kindle",
+   "Amazon Kindle"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "AMZN Mktp US*2K4L19ZX0",
+  "merchant": "Amazon",
+  "accept": [
+   "Amazon",
+   "Amazon Marketplace",
+   "Amazon.com"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "Amazon.com*MK1Q73",
+  "merchant": "Amazon",
+  "accept": [
+   "Amazon"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "AMAZON BR",
+  "merchant": "Amazon",
+  "accept": [
+   "Amazon"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "AMAZON WEB SERVICES",
+  "merchant": "Amazon Web Services",
+  "accept": [
+   "Amazon Web Services",
+   "AWS"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "TWITCH INTERACTIVE",
+  "merchant": "Twitch",
+  "accept": [
+   "Twitch"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "CKO*PATREON* MEMBERSHIP",
+  "merchant": "Patreon",
+  "accept": [
+   "Patreon"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "SUBSTACK *NEWSLETTR",
+  "merchant": "Substack",
+  "accept": [
+   "Substack"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PLAYSTATION NETWORK",
+  "merchant": "PlayStation",
+  "accept": [
+   "PlayStation",
+   "PlayStation Network",
+   "PlayStation Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MICROSOFT*XBOX GAME PASS",
+  "merchant": "Xbox",
+  "accept": [
+   "Xbox",
+   "Xbox Game Pass",
+   "Microsoft"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MSFT *E0300ABCDE",
+  "merchant": "Microsoft",
+  "accept": [
+   "Microsoft"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MICROSOFT*MICROSOFT 365 P",
+  "merchant": "Microsoft 365",
+  "accept": [
+   "Microsoft 365",
+   "Microsoft"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ADOBE *CREATIVE CLOUD 408-555-0122 CA",
+  "merchant": "Adobe",
+  "accept": [
+   "Adobe",
+   "Adobe Creative Cloud"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ADOBE *ACROPRO SUBS",
+  "merchant": "Adobe",
+  "accept": [
+   "Adobe",
+   "Adobe Acrobat",
+   "Adobe Acrobat Pro"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DRI*ADOBE",
+  "merchant": "Adobe",
+  "accept": [
+   "Adobe"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "OPENAI *CHATGPT SUBSCR",
+  "merchant": "OpenAI",
+  "accept": [
+   "OpenAI",
+   "ChatGPT",
+   "OpenAI ChatGPT"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DROPBOX*ABC12XYZ",
+  "merchant": "Dropbox",
+  "accept": [
+   "Dropbox"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GITHUB, INC.",
+  "merchant": "GitHub",
+  "accept": [
+   "GitHub"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NOTION LABS INC",
+  "merchant": "Notion",
+  "accept": [
+   "Notion",
+   "Notion Labs"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "CANVA* I0412-5550142",
+  "merchant": "Canva",
+  "accept": [
+   "Canva"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DM *CANVA",
+  "merchant": "Canva",
+  "accept": [
+   "Canva"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "1PASSWORD",
+  "merchant": "1Password",
+  "accept": [
+   "1Password"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NORTONLIFELOCK 855-555-0156",
+  "merchant": "Norton",
+  "accept": [
+   "Norton",
+   "NortonLifeLock"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NAMECHEAP.COM",
+  "merchant": "Namecheap",
+  "accept": [
+   "Namecheap"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "SQUARESPACE INC",
+  "merchant": "Squarespace",
+  "accept": [
+   "Squarespace"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PADDLE.NET* SETAPP",
+  "merchant": "Setapp",
+  "accept": [
+   "Setapp"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PADDLE.NET* N8N CLOUD1",
+  "merchant": "n8n",
+  "accept": [
+   "n8n",
+   "n8n Cloud"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "FS *SKETCH",
+  "merchant": "Sketch",
+  "accept": [
+   "Sketch"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "2CO.COM|AVAST",
+  "merchant": "Avast",
+  "accept": [
+   "Avast"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "WWW.PERPLEXITY.AI",
+  "merchant": "Perplexity",
+  "accept": [
+   "Perplexity",
+   "Perplexity AI"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MIDJOURNEY INC.",
+  "merchant": "Midjourney",
+  "accept": [
+   "Midjourney"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "LINKEDIN P123456789",
+  "merchant": "LinkedIn",
+  "accept": [
+   "LinkedIn"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "INTUIT *QUICKBOOKS",
+  "merchant": "QuickBooks",
+  "accept": [
+   "QuickBooks",
+   "Intuit",
+   "Intuit QuickBooks"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DIGITALOCEAN.COM",
+  "merchant": "DigitalOcean",
+  "accept": [
+   "DigitalOcean"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "VERCEL INC.",
+  "merchant": "Vercel",
+  "accept": [
+   "Vercel"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MAILCHIMP *MONTHLY",
+  "merchant": "Mailchimp",
+  "accept": [
+   "Mailchimp"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GODADDY.COM 480-555-0103",
+  "merchant": "GoDaddy",
+  "accept": [
+   "GoDaddy"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NORD*NORDVPN",
+  "merchant": "NordVPN",
+  "accept": [
+   "NordVPN"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "EXPRESSVPN",
+  "merchant": "ExpressVPN",
+  "accept": [
+   "ExpressVPN"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ESPN PLUS",
+  "merchant": "ESPN+",
+  "accept": [
+   "ESPN+",
+   "ESPN Plus",
+   "ESPN"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PANDORA *PLUS",
+  "merchant": "Pandora",
+  "accept": [
+   "Pandora",
+   "Pandora Plus"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "TIDAL.COM",
+  "merchant": "Tidal",
+  "accept": [
+   "Tidal"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ROKU FOR SLING TV",
+  "merchant": "Sling TV",
+  "accept": [
+   "Sling TV",
+   "Sling",
+   "Roku"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DUOLINGO",
+  "merchant": "Duolingo",
+  "accept": [
+   "Duolingo"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PAG*DUOLINGO",
+  "merchant": "Duolingo",
+  "accept": [
+   "Duolingo"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "HEADSPACE 555-0119",
+  "merchant": "Headspace",
+  "accept": [
+   "Headspace"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "CALM.COM",
+  "merchant": "Calm",
+  "accept": [
+   "Calm"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "STRAVA",
+  "merchant": "Strava",
+  "accept": [
+   "Strava"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PELOTON* MEMBERSHIP",
+  "merchant": "Peloton",
+  "accept": [
+   "Peloton"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PLANET FIT*CLUB FEES",
+  "merchant": "Planet Fitness",
+  "accept": [
+   "Planet Fitness"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PLANET FIT*ANNUAL FEE",
+  "merchant": "Planet Fitness",
+  "accept": [
+   "Planet Fitness"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "DEB AUTOM SMART FIT",
+  "merchant": "Smart Fit",
+  "accept": [
+   "Smart Fit"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "ANYTIME FITNESS",
+  "merchant": "Anytime Fitness",
+  "accept": [
+   "Anytime Fitness"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "GYMPASS*WELLHUB",
+  "merchant": "Wellhub",
+  "accept": [
+   "Wellhub",
+   "Gympass"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "TOTALPASS",
+  "merchant": "TotalPass",
+  "accept": [
+   "TotalPass"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NYTIMES*NYTIMES SUBSCR",
+  "merchant": "The New York Times",
+  "accept": [
+   "The New York Times",
+   "New York Times",
+   "NYTimes",
+   "NYT"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "NYT*DIGITAL SUBSCRIPTION",
+  "merchant": "The New York Times",
+  "accept": [
+   "The New York Times",
+   "New York Times",
+   "NYT"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "WSJ DIGITAL",
+  "merchant": "The Wall Street Journal",
+  "accept": [
+   "The Wall Street Journal",
+   "Wall Street Journal",
+   "WSJ"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "HELLOFRESH 646-555-0187 NY",
+  "merchant": "HelloFresh",
+  "accept": [
+   "HelloFresh"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "IFD*IFOOD CLUB",
+  "merchant": "iFood",
+  "accept": [
+   "iFood",
+   "iFood Club"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "UBER *ONE",
+  "merchant": "Uber One",
+  "accept": [
+   "Uber One",
+   "Uber"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "MP*MELIMAIS",
+  "merchant": "Meli+",
+  "accept": [
+   "Meli+",
+   "Meli Mais",
+   "Mercado Livre",
+   "Melimais"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "RAPPI*RAPPIPRIME",
+  "merchant": "Rappi",
+  "accept": [
+   "Rappi",
+   "Rappi Prime"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "PG *TINDER",
+  "merchant": "Tinder",
+  "accept": [
+   "Tinder"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "COSTCO *ANNUAL RENEWAL",
+  "merchant": "Costco",
+  "accept": [
+   "Costco"
+  ],
+  "kind": "subscription"
+ },
+ {
+  "descriptor": "VIVO FIBRA",
+  "merchant": "Vivo",
+  "accept": [
+   "Vivo",
+   "Vivo Fibra"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "CLARO SA",
+  "merchant": "Claro",
+  "accept": [
+   "Claro"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "NET SERVICOS",
+  "merchant": "NET",
+  "accept": [
+   "NET",
+   "Net Servicos",
+   "Claro"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "SKY SERVICOS",
+  "merchant": "Sky",
+  "accept": [
+   "Sky",
+   "Sky Servicos"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "SEM PARAR",
+  "merchant": "Sem Parar",
+  "accept": [
+   "Sem Parar"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "SANEVALE",
+  "merchant": "Sanevale",
+  "accept": [
+   "Sanevale"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "SERRAGAS",
+  "merchant": "Serragás",
+  "accept": [
+   "Serragás",
+   "Serragas"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "FORTALUZ SESA",
+  "merchant": "Fortaluz",
+  "accept": [
+   "Fortaluz"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "LUMEVALE ENERGIA DISTRIB",
+  "merchant": "Lumevale",
+  "accept": [
+   "Lumevale",
+   "Lumevale Energia",
+   "Lumevale Energia Distribuição"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "PORTO SEGURO AUTO",
+  "merchant": "Porto Seguro",
+  "accept": [
+   "Porto Seguro",
+   "Porto Seguro Auto"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "VERIZON WRLS 555-01 CA",
+  "merchant": "Verizon",
+  "accept": [
+   "Verizon",
+   "Verizon Wireless"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "COMCAST CABLE COMM",
+  "merchant": "Comcast",
+  "accept": [
+   "Comcast",
+   "Xfinity",
+   "Comcast Cable",
+   "Comcast Cable Communications"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "AT&T*BILL PAYMENT",
+  "merchant": "AT&T",
+  "accept": [
+   "AT&T"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "T-MOBILE*AUTO PAY",
+  "merchant": "T-Mobile",
+  "accept": [
+   "T-Mobile"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "GEICO *AUTO 800-555-0123 DC",
+  "merchant": "GEICO",
+  "accept": [
+   "GEICO",
+   "GEICO Auto Insurance"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "STATE FARM INSURANCE",
+  "merchant": "State Farm",
+  "accept": [
+   "State Farm",
+   "State Farm Insurance"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "HARBORLITE ELEC OF NY INTELL CK",
+  "merchant": "Harborlite",
+  "accept": [
+   "Harborlite",
+   "Harborlite Electric",
+   "Harborlite Electric of New York"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "TVGANDE WEB ONLINE",
+  "merchant": "TVG&E",
+  "accept": [
+   "TVG&E",
+   "TVGandE",
+   "Tri-Valley Gas and Electric"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "CITY OF ASHBURY WATER UTIL",
+  "merchant": "City of Ashbury",
+  "accept": [
+   "City of Ashbury",
+   "City of Ashbury Water",
+   "City of Ashbury Water Utility",
+   "City of Ashbury Water Utilities",
+   "Ashbury Water"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "PRUDENTIAL INS PREM",
+  "merchant": "Prudential",
+  "accept": [
+   "Prudential",
+   "Prudential Insurance"
+  ],
+  "kind": "bill"
+ },
+ {
+  "descriptor": "TED ALUGUEL IMOB HORIZONTE",
+  "merchant": "Imobiliária Horizonte",
+  "accept": [
+   "Imobiliária Horizonte",
+   "Horizonte"
+  ],
+  "kind": "loan_or_rent"
+ },
+ {
+  "descriptor": "ACH DEBIT OAKWOOD PROPERTY MGMT RENT",
+  "merchant": "Oakwood Property Management",
+  "accept": [
+   "Oakwood Property Management",
+   "Oakwood"
+  ],
+  "kind": "loan_or_rent"
+ },
+ {
+  "descriptor": "ONLINE PAYMENT QUILLMONT AUTO FINANCIAL SVCS",
+  "merchant": "Quillmont Auto Financial Services",
+  "accept": [
+   "Quillmont Auto Financial Services",
+   "Quillmont Auto Financial",
+   "Quillmont Auto",
+   "Quillmont"
+  ],
+  "kind": "loan_or_rent"
+ },
+ {
+  "descriptor": "STUDENTARC PAYMENT",
+  "merchant": "StudentArc",
+  "accept": [
+   "StudentArc"
+  ],
+  "kind": "loan_or_rent"
+ },
+ {
+  "descriptor": "PARC FINANC MORADA NOVA 0001234",
+  "merchant": "Morada Nova",
+  "accept": [
+   "Morada Nova",
+   "Morada Nova Financiamento"
+  ],
+  "kind": "loan_or_rent"
+ },
+ {
+  "descriptor": "UBER *TRIP",
+  "merchant": "Uber",
+  "accept": [
+   "Uber"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "UBER *TRIP HELP.UBER.COM",
+  "merchant": "Uber",
+  "accept": [
+   "Uber"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "LYFT *RIDE TUE 5PM",
+  "merchant": "Lyft",
+  "accept": [
+   "Lyft"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "99APP *99RIDE",
+  "merchant": "99",
+  "accept": [
+   "99",
+   "99App",
+   "99 App"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "COSTCO WHSE #0482",
+  "merchant": "Costco",
+  "accept": [
+   "Costco",
+   "Costco Wholesale"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "WHOLEFDS MKT 10234",
+  "merchant": "Whole Foods",
+  "accept": [
+   "Whole Foods",
+   "Whole Foods Market"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "PURCHASE AUTHORIZED ON 03/14 WHOLEFDS MKT 10234 AUSTIN TX",
+  "merchant": "Whole Foods",
+  "accept": [
+   "Whole Foods",
+   "Whole Foods Market"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "TRADER JOE S #552",
+  "merchant": "Trader Joe's",
+  "accept": [
+   "Trader Joe's",
+   "Trader Joes"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "SUPERMERCADO BOA SAFRA",
+  "merchant": "Boa Safra",
+  "accept": [
+   "Boa Safra",
+   "Supermercado Boa Safra"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "ASSAI ATACADISTA LJ 112",
+  "merchant": "Assaí",
+  "accept": [
+   "Assaí",
+   "Assai",
+   "Assaí Atacadista",
+   "Assai Atacadista"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "POS PURCHASE KROGER #456",
+  "merchant": "Kroger",
+  "accept": [
+   "Kroger"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "WM SUPERCENTER #3301",
+  "merchant": "Walmart",
+  "accept": [
+   "Walmart"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "TARGET 00012345",
+  "merchant": "Target",
+  "accept": [
+   "Target"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "DROGARIA BOM CUIDADO",
+  "merchant": "Drogaria Bom Cuidado",
+  "accept": [
+   "Drogaria Bom Cuidado",
+   "Bom Cuidado"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "SQ *CORNER BEAN CAFE",
+  "merchant": "Corner Bean Cafe",
+  "accept": [
+   "Corner Bean Cafe",
+   "Corner Bean"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "TST* LUCKY PIZZA",
+  "merchant": "Lucky Pizza",
+  "accept": [
+   "Lucky Pizza"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "IFD*BURGUER DO BAIRRO",
+  "merchant": "Burguer do Bairro",
+  "accept": [
+   "Burguer do Bairro",
+   "iFood"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "MERCADOLIVRE*3PRODUTOS",
+  "merchant": "Mercado Livre",
+  "accept": [
+   "Mercado Livre",
+   "MercadoLivre"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "LOJAS AMERICANAS",
+  "merchant": "Americanas",
+  "accept": [
+   "Americanas",
+   "Lojas Americanas"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "DECATHLON BR",
+  "merchant": "Decathlon",
+  "accept": [
+   "Decathlon"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "7-ELEVEN 34012",
+  "merchant": "7-Eleven",
+  "accept": [
+   "7-Eleven"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "SHELL OIL 57444123",
+  "merchant": "Shell",
+  "accept": [
+   "Shell",
+   "Shell Oil"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "SP * MONOGRAM GOODS",
+  "merchant": "Monogram Goods",
+  "accept": [
+   "Monogram Goods"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "PAYPAL *STEAM GAMES 4025550134",
+  "merchant": "Steam",
+  "accept": [
+   "Steam",
+   "Steam Games",
+   "Valve"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "STEAMGAMES.COM 425-555-0190",
+  "merchant": "Steam",
+  "accept": [
+   "Steam",
+   "Steam Games"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "EBANX*AIRBNB",
+  "merchant": "Airbnb",
+  "accept": [
+   "Airbnb"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "VENMO PAYMENT 2125550177",
+  "merchant": "Venmo",
+  "accept": [
+   "Venmo"
+  ],
+  "kind": "other"
+ },
+ {
+  "descriptor": "INTUIT *TURBOTAX",
+  "merchant": "TurboTax",
+  "accept": [
+   "TurboTax",
+   "Intuit",
+   "Intuit TurboTax"
+  ],
+  "kind": "other"
+ }
+]

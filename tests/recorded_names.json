@@ -1,0 +1,606 @@
+{
+ "entries": {
+  "#app *#": {
+   "evidence": "99RIDE",
+   "kind": "other",
+   "merchant": "99Ride",
+   "raw": "99APP *99RIDE"
+  },
+  "ach debit oakwood property mgmt rent": {
+   "evidence": "OAKWOOD PROPERTY MGMT",
+   "kind": "loan_or_rent",
+   "merchant": "Oakwood Property Management",
+   "raw": "ACH DEBIT OAKWOOD PROPERTY MGMT RENT"
+  },
+  "adobe *creative cloud #-#-# ca": {
+   "evidence": "ADOBE *CREATIVE CLOUD",
+   "kind": "subscription",
+   "merchant": "Adobe Creative Cloud",
+   "raw": "ADOBE *CREATIVE CLOUD 408-555-0122 CA"
+  },
+  "amazon br": {
+   "evidence": "AMAZON",
+   "kind": "other",
+   "merchant": "Amazon",
+   "raw": "AMAZON BR"
+  },
+  "amazon prime*#": {
+   "evidence": "Amazon Prime",
+   "kind": "subscription",
+   "merchant": "Amazon Prime",
+   "raw": "Amazon Prime*510MDEDD"
+  },
+  "amazon.com*#": {
+   "evidence": "Amazon.com",
+   "kind": "other",
+   "merchant": "Amazon.com",
+   "raw": "Amazon.com*NS4NMR"
+  },
+  "amazonprimebr": {
+   "evidence": "AMAZONPRIME",
+   "kind": "subscription",
+   "merchant": "Amazon Prime",
+   "raw": "AMAZONPRIMEBR"
+  },
+  "amzn mktp us*#": {
+   "evidence": "AMZN Mktp",
+   "kind": "other",
+   "merchant": "Amazon Marketplace",
+   "raw": "AMZN Mktp US*3F28IWY2R"
+  },
+  "anytime fitness": {
+   "evidence": "ANYTIME FITNESS",
+   "kind": "subscription",
+   "merchant": "Anytime Fitness",
+   "raw": "ANYTIME FITNESS"
+  },
+  "apple.com/bill #-#-# ca": {
+   "evidence": "APPLE",
+   "kind": "subscription",
+   "merchant": "Apple",
+   "raw": "APPLE.COM/BILL 866-555-0177 CA"
+  },
+  "assai atacadista lj #": {
+   "evidence": "ASSAI ATACADISTA",
+   "kind": "other",
+   "merchant": "Assai Atacadista",
+   "raw": "ASSAI ATACADISTA LJ 112"
+  },
+  "atm withdrawal # elm st": {
+   "evidence": "ATM",
+   "kind": "other",
+   "merchant": "ATM",
+   "raw": "ATM WITHDRAWAL 0123 ELM ST"
+  },
+  "audible*#": {
+   "evidence": "Audible",
+   "kind": "subscription",
+   "merchant": "Audible",
+   "raw": "Audible*VWLSOMLR8"
+  },
+  "bar do mirante": {
+   "evidence": "BAR DO MIRANTE",
+   "kind": "other",
+   "merchant": "Bar do Mirante",
+   "raw": "BAR DO MIRANTE"
+  },
+  "canva* i#-#": {
+   "evidence": "CANVA",
+   "kind": "subscription",
+   "merchant": "Canva",
+   "raw": "CANVA* I0412-5550142"
+  },
+  "city of ashbury water util": {
+   "evidence": "CITY OF ASHBURY WATER",
+   "kind": "bill",
+   "merchant": "City of Ashbury Water",
+   "raw": "CITY OF ASHBURY WATER UTIL"
+  },
+  "costco *annual renewal": {
+   "evidence": "COSTCO",
+   "kind": "subscription",
+   "merchant": "Costco",
+   "raw": "COSTCO *ANNUAL RENEWAL"
+  },
+  "costco whse ##": {
+   "evidence": "COSTCO WHSE",
+   "kind": "other",
+   "merchant": "Costco Wholesale",
+   "raw": "COSTCO WHSE #0482"
+  },
+  "deb autom smart fit": {
+   "evidence": "SMART FIT",
+   "kind": "subscription",
+   "merchant": "Smart Fit",
+   "raw": "DEB AUTOM SMART FIT"
+  },
+  "decathlon br": {
+   "evidence": "DECATHLON",
+   "kind": "other",
+   "merchant": "Decathlon",
+   "raw": "DECATHLON BR"
+  },
+  "deezer premium": {
+   "evidence": "DEEZER",
+   "kind": "subscription",
+   "merchant": "Deezer",
+   "raw": "DEEZER PREMIUM"
+  },
+  "deezer premium sao paulo": {
+   "evidence": "Deezer",
+   "kind": "subscription",
+   "merchant": "Deezer",
+   "raw": "Deezer Premium SAO PAULO"
+  },
+  "dm *hbomax": {
+   "evidence": "HBOMAX",
+   "kind": "subscription",
+   "merchant": "HBO Max",
+   "raw": "DM *HBOMAX"
+  },
+  "drogaria bom cuidado": {
+   "evidence": "DROGARIA BOM CUIDADO",
+   "kind": "other",
+   "merchant": "Drogaria Bom Cuidado",
+   "raw": "DROGARIA BOM CUIDADO"
+  },
+  "ebn*crunchyroll": {
+   "evidence": "CRUNCHYROLL",
+   "kind": "subscription",
+   "merchant": "Crunchyroll",
+   "raw": "EBN*CRUNCHYROLL"
+  },
+  "ebn*spotify": {
+   "evidence": "SPOTIFY",
+   "kind": "subscription",
+   "merchant": "Spotify",
+   "raw": "EBN*SPOTIFY"
+  },
+  "geico *auto #-#-# dc": {
+   "evidence": "GEICO",
+   "kind": "other",
+   "merchant": "GEICO",
+   "raw": "GEICO *AUTO 800-555-0123 DC"
+  },
+  "globoplay": {
+   "evidence": "GLOBOPLAY",
+   "kind": "subscription",
+   "merchant": "Globoplay",
+   "raw": "GLOBOPLAY"
+  },
+  "google *google one": {
+   "evidence": "Google One",
+   "kind": "subscription",
+   "merchant": "Google One",
+   "raw": "GOOGLE *Google One"
+  },
+  "google *youtube premium": {
+   "evidence": "YouTube Premium",
+   "kind": "subscription",
+   "merchant": "YouTube Premium",
+   "raw": "GOOGLE *YouTube Premium"
+  },
+  "google *youtubepremium g.co/helppay#": {
+   "evidence": "YouTubePremium",
+   "kind": "subscription",
+   "merchant": "YouTube Premium",
+   "raw": "GOOGLE *YouTubePremium g.co/helppay#"
+  },
+  "harborlite elec of ny intell ck": {
+   "evidence": "HARBORLITE ELEC",
+   "kind": "other",
+   "merchant": "Harborlite Electric",
+   "raw": "HARBORLITE ELEC OF NY INTELL CK"
+  },
+  "hellofresh #-#-# ny": {
+   "evidence": "HELLOFRESH",
+   "kind": "other",
+   "merchant": "HelloFresh",
+   "raw": "HELLOFRESH 646-555-0187 NY"
+  },
+  "help.max.com": {
+   "evidence": "HELP.MAX.COM",
+   "kind": "other",
+   "merchant": "Help.Max.com",
+   "raw": "HELP.MAX.COM"
+  },
+  "hulu #-#-# ca": {
+   "evidence": "HULU",
+   "kind": "subscription",
+   "merchant": "Hulu",
+   "raw": "HULU 877-555-0199 CA"
+  },
+  "ifd*acai do porto": {
+   "evidence": "ACAI DO PORTO",
+   "kind": "other",
+   "merchant": "ACAI DO PORTO",
+   "raw": "IFD*ACAI DO PORTO"
+  },
+  "ifd*burguer do bairro": {
+   "evidence": "BURGUER DO BAIRRO",
+   "kind": "other",
+   "merchant": "BURGUER DO BAIRRO",
+   "raw": "IFD*BURGUER DO BAIRRO"
+  },
+  "ifd*cantina do largo": {
+   "evidence": "CANTINA DO LARGO",
+   "kind": "other",
+   "merchant": "CANTINA DO LARGO",
+   "raw": "IFD*CANTINA DO LARGO"
+  },
+  "ifd*espetinho do centro": {
+   "evidence": "ESPETINHO DO CENTRO",
+   "kind": "other",
+   "merchant": "ESPETINHO DO CENTRO",
+   "raw": "IFD*ESPETINHO DO CENTRO"
+  },
+  "ifd*ifood club": {
+   "evidence": "IFOOD CLUB",
+   "kind": "subscription",
+   "merchant": "iFood Club",
+   "raw": "IFD*IFOOD CLUB"
+  },
+  "ifd*marmita da vila": {
+   "evidence": "MARMITA DA VILA",
+   "kind": "other",
+   "merchant": "Marmita da Vila",
+   "raw": "IFD*MARMITA DA VILA"
+  },
+  "ifd*pizzaria bella napoli": {
+   "evidence": "PIZZARIA BELLA NAPOLI",
+   "kind": "other",
+   "merchant": "PIZZARIA BELLA NAPOLI",
+   "raw": "IFD*PIZZARIA BELLA NAPOLI"
+  },
+  "ifd*poke da orla": {
+   "evidence": "POKE DA ORLA",
+   "kind": "other",
+   "merchant": "Poke Da Orla",
+   "raw": "IFD*POKE DA ORLA"
+  },
+  "ifd*sushi da praca": {
+   "evidence": "SUSHI DA PRACA",
+   "kind": "other",
+   "merchant": "SUSHI DA PRACA",
+   "raw": "IFD*SUSHI DA PRACA"
+  },
+  "livraria pagina viva": {
+   "evidence": "LIVRARIA PAGINA VIVA",
+   "kind": "other",
+   "merchant": "Livraria Pagina Viva",
+   "raw": "LIVRARIA PAGINA VIVA"
+  },
+  "lojas americanas": {
+   "evidence": "LOJAS AMERICANAS",
+   "kind": "other",
+   "merchant": "Lojas Americanas",
+   "raw": "LOJAS AMERICANAS"
+  },
+  "lumevale energia distrib": {
+   "evidence": "LUMEVALE ENERGIA",
+   "kind": "bill",
+   "merchant": "Lumevale Energia",
+   "raw": "LUMEVALE ENERGIA DISTRIB"
+  },
+  "lyft *ride fri #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE FRI 9AM"
+  },
+  "lyft *ride fri #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE FRI 11PM"
+  },
+  "lyft *ride mon #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE MON 9AM"
+  },
+  "lyft *ride mon #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE MON 5PM"
+  },
+  "lyft *ride sat #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE SAT 9AM"
+  },
+  "lyft *ride sat #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE SAT 6PM"
+  },
+  "lyft *ride sun #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE SUN 8AM"
+  },
+  "lyft *ride sun #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE SUN 5PM"
+  },
+  "lyft *ride thu #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE THU 8AM"
+  },
+  "lyft *ride thu #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE THU 5PM"
+  },
+  "lyft *ride tue #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE TUE 9AM"
+  },
+  "lyft *ride tue #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE TUE 6PM"
+  },
+  "lyft *ride wed #am": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE WED 8AM"
+  },
+  "lyft *ride wed #pm": {
+   "evidence": "LYFT",
+   "kind": "other",
+   "merchant": "Lyft",
+   "raw": "LYFT *RIDE WED 6PM"
+  },
+  "mercadolivre*#": {
+   "evidence": "MERCADOLIVRE",
+   "kind": "other",
+   "merchant": "Mercado Livre",
+   "raw": "MERCADOLIVRE*2PRODUTOS"
+  },
+  "mp*melimais": {
+   "evidence": "MELIMAIS",
+   "kind": "other",
+   "merchant": "MELIMAIS",
+   "raw": "MP*MELIMAIS"
+  },
+  "netflix entretenimento": {
+   "evidence": "NETFLIX",
+   "kind": "subscription",
+   "merchant": "Netflix",
+   "raw": "NETFLIX ENTRETENIMENTO"
+  },
+  "netflix.com": {
+   "evidence": "NETFLIX",
+   "kind": "subscription",
+   "merchant": "Netflix",
+   "raw": "NETFLIX.COM"
+  },
+  "netflix.com #-#-# ca": {
+   "evidence": "NETFLIX",
+   "kind": "subscription",
+   "merchant": "Netflix",
+   "raw": "NETFLIX.COM 866-555-0142 CA"
+  },
+  "nytimes*nytimes subscr": {
+   "evidence": "NYTIMES",
+   "kind": "subscription",
+   "merchant": "NYTIMES",
+   "raw": "NYTIMES*NYTIMES SUBSCR"
+  },
+  "online payment quillmont auto financial svcs": {
+   "evidence": "QUILLMONT AUTO FINANCIAL SVCS",
+   "kind": "loan_or_rent",
+   "merchant": "QUILLMONT AUTO FINANCIAL SVCS",
+   "raw": "ONLINE PAYMENT QUILLMONT AUTO FINANCIAL SVCS"
+  },
+  "openai *chatgpt subscr": {
+   "evidence": "OPENAI *CHATGPT",
+   "kind": "subscription",
+   "merchant": "OpenAI ChatGPT",
+   "raw": "OPENAI *CHATGPT SUBSCR"
+  },
+  "padaria nova aurora": {
+   "evidence": "PADARIA NOVA AURORA",
+   "kind": "other",
+   "merchant": "Padaria Nova Aurora",
+   "raw": "PADARIA NOVA AURORA"
+  },
+  "pag*duolingo": {
+   "evidence": "DUOLINGO",
+   "kind": "subscription",
+   "merchant": "Duolingo",
+   "raw": "PAG*DUOLINGO"
+  },
+  "pagto fatura cartao": {
+   "evidence": "PAGTO",
+   "kind": "other",
+   "merchant": "PagSeguro",
+   "raw": "PAGTO FATURA CARTAO"
+  },
+  "paypal *spotify #": {
+   "evidence": "SPOTIFY",
+   "kind": "subscription",
+   "merchant": "Spotify",
+   "raw": "PAYPAL *SPOTIFY 4025550134"
+  },
+  "planet fit*annual fee": {
+   "evidence": "PLANET FIT",
+   "kind": "subscription",
+   "merchant": "Planet Fit",
+   "raw": "PLANET FIT*ANNUAL FEE"
+  },
+  "planet fit*club fees": {
+   "evidence": "PLANET FIT",
+   "kind": "subscription",
+   "merchant": "Planet Fit",
+   "raw": "PLANET FIT*CLUB FEES"
+  },
+  "playstation network": {
+   "evidence": "PLAYSTATION NETWORK",
+   "kind": "subscription",
+   "merchant": "PlayStation Network",
+   "raw": "PLAYSTATION NETWORK"
+  },
+  "porto seguro auto": {
+   "evidence": "PORTO SEGURO AUTO",
+   "kind": "other",
+   "merchant": "Porto Seguro Auto",
+   "raw": "PORTO SEGURO AUTO"
+  },
+  "pos purchase kroger ##": {
+   "evidence": "KROGER",
+   "kind": "other",
+   "merchant": "Kroger",
+   "raw": "POS PURCHASE KROGER #456"
+  },
+  "prudential ins prem": {
+   "evidence": "PRUDENTIAL INS",
+   "kind": "loan_or_rent",
+   "merchant": "Prudential Insurance",
+   "raw": "PRUDENTIAL INS PREM"
+  },
+  "restaurante sabor da serra": {
+   "evidence": "RESTAURANTE SABOR DA SERRA",
+   "kind": "other",
+   "merchant": "Restaurante Sabor da Serra",
+   "raw": "RESTAURANTE SABOR DA SERRA"
+  },
+  "spotify ab stockholm se": {
+   "evidence": "SPOTIFY",
+   "kind": "subscription",
+   "merchant": "Spotify",
+   "raw": "SPOTIFY AB STOCKHOLM SE"
+  },
+  "spotify usa": {
+   "evidence": "Spotify",
+   "kind": "subscription",
+   "merchant": "Spotify",
+   "raw": "Spotify USA"
+  },
+  "sq *corner bean cafe": {
+   "evidence": "CORNER BEAN CAFE",
+   "kind": "other",
+   "merchant": "CORNER BEAN CAFE",
+   "raw": "SQ *CORNER BEAN CAFE"
+  },
+  "sq *maple street bakery": {
+   "evidence": "MAPLE STREET BAKERY",
+   "kind": "other",
+   "merchant": "Maple Street Bakery",
+   "raw": "SQ *MAPLE STREET BAKERY"
+  },
+  "supermercado boa safra": {
+   "evidence": "SUPERMERCADO BOA SAFRA",
+   "kind": "other",
+   "merchant": "Supermercado Boa Safra",
+   "raw": "SUPERMERCADO BOA SAFRA"
+  },
+  "sxm*siriusxm.com/acct": {
+   "evidence": "SIRIUSXM",
+   "kind": "subscription",
+   "merchant": "SiriusXM",
+   "raw": "SXM*SIRIUSXM.COM/ACCT"
+  },
+  "ted aluguel imob horizonte": {
+   "evidence": "ALUGUEL IMOB HORIZONTE",
+   "kind": "loan_or_rent",
+   "merchant": "ALUGUEL IMOB HORIZONTE",
+   "raw": "TED ALUGUEL IMOB HORIZONTE"
+  },
+  "trader joe s ##": {
+   "evidence": "TRADER JOE S",
+   "kind": "other",
+   "merchant": "Trader Joe's",
+   "raw": "TRADER JOE S #552"
+  },
+  "transfer to sav #": {
+   "evidence": "SAV",
+   "kind": "other",
+   "merchant": "SAV",
+   "raw": "TRANSFER TO SAV XXXXXX4821"
+  },
+  "tst* harbor taco bar": {
+   "evidence": "HARBOR TACO BAR",
+   "kind": "other",
+   "merchant": "HARBOR TACO BAR",
+   "raw": "TST* HARBOR TACO BAR"
+  },
+  "tst* lucky pizza": {
+   "evidence": "LUCKY PIZZA",
+   "kind": "other",
+   "merchant": "LUCKY PIZZA",
+   "raw": "TST* LUCKY PIZZA"
+  },
+  "tvgande web online": {
+   "evidence": "TVGANDE",
+   "kind": "other",
+   "merchant": "TVGANDE",
+   "raw": "TVGANDE WEB ONLINE"
+  },
+  "uber *one": {
+   "evidence": "UBER *ONE",
+   "kind": "subscription",
+   "merchant": "Uber One",
+   "raw": "UBER *ONE"
+  },
+  "uber *trip": {
+   "evidence": "UBER",
+   "kind": "other",
+   "merchant": "Uber",
+   "raw": "UBER *TRIP"
+  },
+  "uber *trip help.uber.com": {
+   "evidence": "UBER",
+   "kind": "other",
+   "merchant": "Uber",
+   "raw": "UBER *TRIP HELP.UBER.COM"
+  },
+  "venmo payment #": {
+   "evidence": "VENMO",
+   "kind": "other",
+   "merchant": "Venmo",
+   "raw": "VENMO PAYMENT 2125550177"
+  },
+  "verizon wrls #-# ca": {
+   "evidence": "VERIZON WRLS",
+   "kind": "bill",
+   "merchant": "Verizon Wireless",
+   "raw": "VERIZON WRLS 555-01 CA"
+  },
+  "vivo fibra": {
+   "evidence": "VIVO FIBRA",
+   "kind": "bill",
+   "merchant": "VIVO FIBRA",
+   "raw": "VIVO FIBRA"
+  },
+  "wholefds mkt #": {
+   "evidence": "WHOLEFDS MKT",
+   "kind": "other",
+   "merchant": "WHOLEFDS MKT",
+   "raw": "WHOLEFDS MKT 10234"
+  },
+  "youtubepremium google.com ca": {
+   "evidence": "YOUTUBEPREMIUM",
+   "kind": "subscription",
+   "merchant": "YouTube Premium",
+   "raw": "YOUTUBEPREMIUM GOOGLE.COM CA"
+  }
+ },
+ "model": "gemma4:12b",
+ "prompt": "names-v2"
+}
