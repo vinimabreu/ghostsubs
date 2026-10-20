@@ -15,6 +15,10 @@ The line reports a price that went up, a trial that turned into a paid plan, a y
 
 A bank statement is private, so the model runs on your own laptop: [Gemma 4](https://ollama.com/library/gemma4) (12B) through [Ollama](https://ollama.com), offline and free. Nothing leaves the machine unless you add `--ntfy` (the one line, to the ntfy server you choose) or `--allow-remote-model` (the descriptors, to that model). The model client only talks to an Ollama on this machine, ignores proxy settings and follows no redirects. It also refuses a cloud model served through the local Ollama (a name ending in `-cloud`, or a model Ollama reports as running elsewhere) unless you pass `--allow-remote-model`.
 
+![ghostsubs: Gemma 4 names each bank descriptor on your laptop, and code checks every name before the monthly line is written](assets/ghostsubs.gif)
+
+Every number in the animation comes from the command-line output and the files in [`measurements/`](measurements/).
+
 ## What the model does, and what code does
 
 Banks print a charge as a descriptor: `PAYPAL *SPOTIFY 4025550134`, `AMZN Mktp US*2K4L19ZX0`, `DM *HBOMAX`, `ACH DEBIT OAKWOOD PROPERTY MGMT RENT`. Gemma reads each one and says which business it is. Everything else is plain code: which charges repeat, on what schedule and at what price, and when the next one is due. Every number you see comes from the statement through that code; no number in the line or the report is written by Gemma.
