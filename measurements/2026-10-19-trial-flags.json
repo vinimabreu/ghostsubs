@@ -1,0 +1,61 @@
+{
+ "settings": {
+  "date": "2026-10-19",
+  "started": "2026-10-19T21:10:23-03:00",
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "code_sha256": {
+   "__init__.py": "fc298371b379",
+   "__main__.py": "13a1a5b340cd",
+   "clean.py": "6c8bf8d60815",
+   "cli.py": "07abf73babc4",
+   "model.py": "a66021461ade",
+   "naming.py": "7018255e1bdd",
+   "notify.py": "a25f6ac55bdd",
+   "recur.py": "9f3f366de1eb",
+   "render.py": "87dcac8da230",
+   "statement.py": "2790e116f1cc",
+   "watch.py": "5647dc3e51b7"
+  }
+ },
+ "results": [
+  {
+   "new_shops_per_month": 4,
+   "labels": "other",
+   "month_end_runs": 120,
+   "runs_with_a_false_flag": 0,
+   "false_flags": 0
+  },
+  {
+   "new_shops_per_month": 4,
+   "labels": "none",
+   "month_end_runs": 120,
+   "runs_with_a_false_flag": 23,
+   "false_flags": 26
+  },
+  {
+   "new_shops_per_month": 12,
+   "labels": "other",
+   "month_end_runs": 120,
+   "runs_with_a_false_flag": 0,
+   "false_flags": 0
+  },
+  {
+   "new_shops_per_month": 12,
+   "labels": "none",
+   "month_end_runs": 120,
+   "runs_with_a_false_flag": 71,
+   "false_flags": 90
+  }
+ ]
+}

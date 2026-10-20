@@ -1,0 +1,7526 @@
+{
+ "settings": {
+  "date": "2026-10-19",
+  "started": "2026-10-19T21:00:05-03:00",
+  "model": "gemma4:12b",
+  "digest": "6114515d63c17436a7c0417d82820ac65ad643e2806c5a3c89cb62846436ed0b",
+  "prompt": "names-v2",
+  "temperature": 0,
+  "think": false,
+  "host": "http://127.0.0.1:11434",
+  "runs": 3,
+  "warm_up_seconds": 0.59,
+  "python": "3.14.7",
+  "machine": "Darwin 27.0.0 arm64",
+  "code_sha256": {
+   "__init__.py": "fc298371b379",
+   "__main__.py": "13a1a5b340cd",
+   "clean.py": "6c8bf8d60815",
+   "cli.py": "07abf73babc4",
+   "model.py": "a66021461ade",
+   "naming.py": "7018255e1bdd",
+   "notify.py": "a25f6ac55bdd",
+   "recur.py": "9f3f366de1eb",
+   "render.py": "87dcac8da230",
+   "statement.py": "2790e116f1cc",
+   "watch.py": "5647dc3e51b7"
+  }
+ },
+ "descriptors": 159,
+ "runs": 3,
+ "per_run": [
+  {
+   "correct": 148,
+   "incomplete_passed": 2,
+   "wrong_passed": 6,
+   "rejected": 3,
+   "rejected_then_cleanup_correct": 0,
+   "shown_correct": 148,
+   "kind_correct": 141,
+   "subscription_or_not_correct": 154,
+   "median_seconds": 0.753,
+   "total_seconds": 135.4
+  },
+  {
+   "correct": 148,
+   "incomplete_passed": 2,
+   "wrong_passed": 6,
+   "rejected": 3,
+   "rejected_then_cleanup_correct": 0,
+   "shown_correct": 148,
+   "kind_correct": 141,
+   "subscription_or_not_correct": 154,
+   "median_seconds": 0.388,
+   "total_seconds": 71.0
+  },
+  {
+   "correct": 148,
+   "incomplete_passed": 2,
+   "wrong_passed": 6,
+   "rejected": 3,
+   "rejected_then_cleanup_correct": 0,
+   "shown_correct": 148,
+   "kind_correct": 141,
+   "subscription_or_not_correct": 154,
+   "median_seconds": 0.402,
+   "total_seconds": 71.8
+  }
+ ],
+ "split": {
+  "in_example_statements": {
+   "descriptors": 71,
+   "shown_correct": 65,
+   "baseline_correct": 43
+  },
+  "not_in_example_statements": {
+   "descriptors": 88,
+   "shown_correct": 83,
+   "baseline_correct": 56
+  }
+ },
+ "baseline": {
+  "correct": 99,
+  "incomplete": 6,
+  "wrong": 54
+ },
+ "stability": {
+  "same_outcome_name_and_kind_in_all_runs": 159,
+  "identical_answer_in_all_runs": 159
+ },
+ "rows": [
+  {
+   "descriptor": "PAYPAL *SPOTIFY 4025550134",
+   "truth": "Spotify",
+   "accept": [
+    "Spotify"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Spotify",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.532
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.308
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.321
+    }
+   ]
+  },
+  {
+   "descriptor": "EBN*SPOTIFY",
+   "truth": "Spotify",
+   "accept": [
+    "Spotify"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Spotify",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.595
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.328
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.306
+    }
+   ]
+  },
+  {
+   "descriptor": "SPOTIFY AB STOCKHOLM SE",
+   "truth": "Spotify",
+   "accept": [
+    "Spotify"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Spotify Ab",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.538
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.31
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.296
+    }
+   ]
+  },
+  {
+   "descriptor": "Spotify USA",
+   "truth": "Spotify",
+   "accept": [
+    "Spotify"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Spotify",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Spotify",
+     "evidence": "Spotify",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.53
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "Spotify",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.275
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "Spotify",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.274
+    }
+   ]
+  },
+  {
+   "descriptor": "SPOTIFY P2C4E6G8A0",
+   "truth": "Spotify",
+   "accept": [
+    "Spotify"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Spotify",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.532
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.274
+    },
+    {
+     "merchant": "Spotify",
+     "evidence": "SPOTIFY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Spotify",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.275
+    }
+   ]
+  },
+  {
+   "descriptor": "NETFLIX.COM",
+   "truth": "Netflix",
+   "accept": [
+    "Netflix"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Netflix",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.553
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.281
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.283
+    }
+   ]
+  },
+  {
+   "descriptor": "NETFLIX ENTRETENIMENTO",
+   "truth": "Netflix",
+   "accept": [
+    "Netflix",
+    "Netflix Entretenimento"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Netflix Entretenimento",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.592
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.323
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.343
+    }
+   ]
+  },
+  {
+   "descriptor": "NETFLIX.COM 866-555-0142 CA",
+   "truth": "Netflix",
+   "accept": [
+    "Netflix"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Netflix",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.633
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.349
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.331
+    }
+   ]
+  },
+  {
+   "descriptor": "NETFLIX.COM          LOS GATOS    CA",
+   "truth": "Netflix",
+   "accept": [
+    "Netflix"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Netflix",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.631
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.343
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.357
+    }
+   ]
+  },
+  {
+   "descriptor": "COMPRA CARTAO NETFLIX ENTRETENIMENT",
+   "truth": "Netflix",
+   "accept": [
+    "Netflix",
+    "Netflix Entretenimento"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Netflix Entreteniment",
+   "in_examples": false,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.639
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.347
+    },
+    {
+     "merchant": "Netflix",
+     "evidence": "NETFLIX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Netflix",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.327
+    }
+   ]
+  },
+  {
+   "descriptor": "HULU 877-555-0199 CA",
+   "truth": "Hulu",
+   "accept": [
+    "Hulu"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Hulu",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.582
+    },
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.314
+    },
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.317
+    }
+   ]
+  },
+  {
+   "descriptor": "HLU*HULU 8005550163-U",
+   "truth": "Hulu",
+   "accept": [
+    "Hulu"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Hlu Hulu U",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.594
+    },
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.296
+    },
+    {
+     "merchant": "Hulu",
+     "evidence": "HULU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Hulu",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.298
+    }
+   ]
+  },
+  {
+   "descriptor": "DM *HBOMAX",
+   "truth": "Max",
+   "accept": [
+    "Max",
+    "HBO Max"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Hbomax",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "HBO Max",
+     "evidence": "HBOMAX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "HBO Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.646
+    },
+    {
+     "merchant": "HBO Max",
+     "evidence": "HBOMAX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "HBO Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.333
+    },
+    {
+     "merchant": "HBO Max",
+     "evidence": "HBOMAX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "HBO Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.336
+    }
+   ]
+  },
+  {
+   "descriptor": "HELP.MAX.COM",
+   "truth": "Max",
+   "accept": [
+    "Max",
+    "HBO Max"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Max",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Help.Max.com",
+     "evidence": "HELP.MAX.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.734
+    },
+    {
+     "merchant": "Help.Max.com",
+     "evidence": "HELP.MAX.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.49
+    },
+    {
+     "merchant": "Help.Max.com",
+     "evidence": "HELP.MAX.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Max",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.471
+    }
+   ]
+  },
+  {
+   "descriptor": "DISNEY PLUS 888-555-0111",
+   "truth": "Disney+",
+   "accept": [
+    "Disney+",
+    "Disney Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Disney Plus",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.684
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.368
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.36
+    }
+   ]
+  },
+  {
+   "descriptor": "DISNEYPLUS*TRIAL",
+   "truth": "Disney+",
+   "accept": [
+    "Disney+",
+    "Disney Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Disneyplus Trial",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.733
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.431
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.426
+    }
+   ]
+  },
+  {
+   "descriptor": "DISNEY PLU*2K3J4L",
+   "truth": "Disney+",
+   "accept": [
+    "Disney+",
+    "Disney Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Disney Plu",
+   "in_examples": false,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.716
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.377
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEY PLU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.374
+    }
+   ]
+  },
+  {
+   "descriptor": "PAYPAL *DISNEYPLUS 4025550134",
+   "truth": "Disney+",
+   "accept": [
+    "Disney+",
+    "Disney Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Disneyplus",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.715
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.426
+    },
+    {
+     "merchant": "Disney Plus",
+     "evidence": "DISNEYPLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Disney Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.385
+    }
+   ]
+  },
+  {
+   "descriptor": "PARAMOUNT+ 855-555-0144",
+   "truth": "Paramount+",
+   "accept": [
+    "Paramount+",
+    "Paramount Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Paramount+",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Paramount+",
+     "evidence": "PARAMOUNT+",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Paramount+",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.728
+    },
+    {
+     "merchant": "Paramount+",
+     "evidence": "PARAMOUNT+",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Paramount+",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.367
+    },
+    {
+     "merchant": "Paramount+",
+     "evidence": "PARAMOUNT+",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Paramount+",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.389
+    }
+   ]
+  },
+  {
+   "descriptor": "PEACOCK 8005550148",
+   "truth": "Peacock",
+   "accept": [
+    "Peacock",
+    "Peacock TV"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Peacock",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Peacock",
+     "evidence": "PEACOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peacock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.696
+    },
+    {
+     "merchant": "Peacock",
+     "evidence": "PEACOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peacock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.349
+    },
+    {
+     "merchant": "Peacock",
+     "evidence": "PEACOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peacock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.339
+    }
+   ]
+  },
+  {
+   "descriptor": "GLOBOPLAY",
+   "truth": "Globoplay",
+   "accept": [
+    "Globoplay"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Globoplay",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Globoplay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Globoplay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.697
+    },
+    {
+     "merchant": "Globoplay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Globoplay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.351
+    },
+    {
+     "merchant": "Globoplay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Globoplay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.389
+    }
+   ]
+  },
+  {
+   "descriptor": "GLOBO.COM*GLOBOPLAY",
+   "truth": "Globoplay",
+   "accept": [
+    "Globoplay"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Globo Globoplay",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "GloboPlay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GloboPlay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.735
+    },
+    {
+     "merchant": "GloboPlay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GloboPlay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.367
+    },
+    {
+     "merchant": "GloboPlay",
+     "evidence": "GLOBOPLAY",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GloboPlay",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.383
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *YouTubePremium g.co/helppay#",
+   "truth": "YouTube Premium",
+   "accept": [
+    "YouTube Premium",
+    "YouTube"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "YouTubePremium",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTubePremium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.701
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTubePremium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTubePremium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.383
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *YouTube Premium",
+   "truth": "YouTube Premium",
+   "accept": [
+    "YouTube Premium",
+    "YouTube"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "YouTube Premium",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTube Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.708
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTube Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.36
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YouTube Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.358
+    }
+   ]
+  },
+  {
+   "descriptor": "YOUTUBEPREMIUM GOOGLE.COM CA",
+   "truth": "YouTube Premium",
+   "accept": [
+    "YouTube Premium",
+    "YouTube"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Youtubepremium Google",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YOUTUBEPREMIUM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.789
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YOUTUBEPREMIUM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.434
+    },
+    {
+     "merchant": "YouTube Premium",
+     "evidence": "YOUTUBEPREMIUM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.416
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *YOUTUBE TV",
+   "truth": "YouTube TV",
+   "accept": [
+    "YouTube TV"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Youtube Tv",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "YouTube TV",
+     "evidence": "YOUTUBE TV",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube TV",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.751
+    },
+    {
+     "merchant": "YouTube TV",
+     "evidence": "YOUTUBE TV",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube TV",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.388
+    },
+    {
+     "merchant": "YouTube TV",
+     "evidence": "YOUTUBE TV",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "YouTube TV",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.387
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *Google One",
+   "truth": "Google One",
+   "accept": [
+    "Google One"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Google One",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Google One",
+     "evidence": "Google One",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.672
+    },
+    {
+     "merchant": "Google One",
+     "evidence": "Google One",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.308
+    },
+    {
+     "merchant": "Google One",
+     "evidence": "Google One",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.313
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *GOOGLE STORAGE",
+   "truth": "Google One",
+   "accept": [
+    "Google One",
+    "Google Storage",
+    "Google"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Google Storage",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Google Storage",
+     "evidence": "GOOGLE STORAGE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google Storage",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.704
+    },
+    {
+     "merchant": "Google Storage",
+     "evidence": "GOOGLE STORAGE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google Storage",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.362
+    },
+    {
+     "merchant": "Google Storage",
+     "evidence": "GOOGLE STORAGE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Google Storage",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.375
+    }
+   ]
+  },
+  {
+   "descriptor": "GOOGLE *Duolingo",
+   "truth": "Duolingo",
+   "accept": [
+    "Duolingo"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Duolingo",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Duolingo",
+     "evidence": "Duolingo",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.736
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "Duolingo",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "Duolingo",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.361
+    }
+   ]
+  },
+  {
+   "descriptor": "APPLE.COM/BILL 866-555-0177 CA",
+   "truth": "Apple",
+   "accept": [
+    "Apple",
+    "iCloud",
+    "Apple Services"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Apple",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.698
+    },
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.308
+    },
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.312
+    }
+   ]
+  },
+  {
+   "descriptor": "APPLE.COM/BILL",
+   "truth": "Apple",
+   "accept": [
+    "Apple",
+    "Apple Services"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Apple",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.651
+    },
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.325
+    },
+    {
+     "merchant": "Apple",
+     "evidence": "APPLE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Apple",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.317
+    }
+   ]
+  },
+  {
+   "descriptor": "ITUNES.COM/BILL",
+   "truth": "Apple",
+   "accept": [
+    "Apple",
+    "iTunes"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Itunes",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "iTunes",
+     "evidence": "ITUNES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iTunes",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.723
+    },
+    {
+     "merchant": "iTunes",
+     "evidence": "ITUNES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iTunes",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.36
+    },
+    {
+     "merchant": "iTunes",
+     "evidence": "ITUNES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iTunes",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.406
+    }
+   ]
+  },
+  {
+   "descriptor": "DEEZER  PREMIUM",
+   "truth": "Deezer",
+   "accept": [
+    "Deezer",
+    "Deezer Premium"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Deezer",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Deezer",
+     "evidence": "DEEZER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.725
+    },
+    {
+     "merchant": "Deezer",
+     "evidence": "DEEZER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.381
+    },
+    {
+     "merchant": "Deezer",
+     "evidence": "DEEZER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.383
+    }
+   ]
+  },
+  {
+   "descriptor": "Deezer Premium  SAO PAULO",
+   "truth": "Deezer",
+   "accept": [
+    "Deezer",
+    "Deezer Premium"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Deezer Premium",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Deezer Premium",
+     "evidence": "Deezer Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.706
+    },
+    {
+     "merchant": "Deezer Premium",
+     "evidence": "Deezer Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.401
+    },
+    {
+     "merchant": "Deezer Premium",
+     "evidence": "Deezer Premium",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Deezer Premium",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.399
+    }
+   ]
+  },
+  {
+   "descriptor": "CRUNCHYROLL*MEMBERSHIP",
+   "truth": "Crunchyroll",
+   "accept": [
+    "Crunchyroll"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Crunchyroll Membership",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.794
+    },
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.431
+    },
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.427
+    }
+   ]
+  },
+  {
+   "descriptor": "EBN*CRUNCHYROLL",
+   "truth": "Crunchyroll",
+   "accept": [
+    "Crunchyroll"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Crunchyroll",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.748
+    },
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.421
+    },
+    {
+     "merchant": "Crunchyroll",
+     "evidence": "CRUNCHYROLL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Crunchyroll",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.426
+    }
+   ]
+  },
+  {
+   "descriptor": "SXM*SIRIUSXM.COM/ACCT",
+   "truth": "SiriusXM",
+   "accept": [
+    "SiriusXM",
+    "Sirius XM",
+    "Sirius XM Radio"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Sxm Siriusxm",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "SiriusXM",
+     "evidence": "SIRIUSXM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "SiriusXM",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.704
+    },
+    {
+     "merchant": "SiriusXM",
+     "evidence": "SIRIUSXM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "SiriusXM",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.358
+    },
+    {
+     "merchant": "SiriusXM",
+     "evidence": "SIRIUSXM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "SiriusXM",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.397
+    }
+   ]
+  },
+  {
+   "descriptor": "Audible*AB12C3DE4",
+   "truth": "Audible",
+   "accept": [
+    "Audible"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Audible",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Audible",
+     "evidence": "Audible",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Audible",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.662
+    },
+    {
+     "merchant": "Audible",
+     "evidence": "Audible",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Audible",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.313
+    },
+    {
+     "merchant": "Audible",
+     "evidence": "Audible",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Audible",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.318
+    }
+   ]
+  },
+  {
+   "descriptor": "Amazon Prime*K82LP0Q1",
+   "truth": "Amazon Prime",
+   "accept": [
+    "Amazon Prime",
+    "Prime",
+    "Amazon"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Amazon Prime",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "Amazon Prime",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.653
+    },
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "Amazon Prime",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.306
+    },
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "Amazon Prime",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.309
+    }
+   ]
+  },
+  {
+   "descriptor": "AMAZONPRIMEBR",
+   "truth": "Amazon Prime",
+   "accept": [
+    "Amazon Prime",
+    "Prime",
+    "Amazon"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Amazonprimebr",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "AMAZONPRIME",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.743
+    },
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "AMAZONPRIME",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.365
+    },
+    {
+     "merchant": "Amazon Prime",
+     "evidence": "AMAZONPRIME",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Prime",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.367
+    }
+   ]
+  },
+  {
+   "descriptor": "PRIME VIDEO CHANNELS",
+   "truth": "Prime Video",
+   "accept": [
+    "Prime Video",
+    "Amazon Prime Video",
+    "Amazon Prime",
+    "Prime Video Channels"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Prime Video Channels",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Prime Video",
+     "evidence": "PRIME VIDEO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Prime Video",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.739
+    },
+    {
+     "merchant": "Prime Video",
+     "evidence": "PRIME VIDEO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Prime Video",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.368
+    },
+    {
+     "merchant": "Prime Video",
+     "evidence": "PRIME VIDEO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Prime Video",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.362
+    }
+   ]
+  },
+  {
+   "descriptor": "Kindle Unltd*AB12CD",
+   "truth": "Kindle Unlimited",
+   "accept": [
+    "Kindle Unlimited",
+    "Kindle",
+    "Amazon Kindle"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Kindle Unltd",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Kindle Unlimited",
+     "evidence": "Kindle Unltd",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Kindle Unlimited\" is not spelled out in \"Kindle Unltd\"",
+     "shown": "Kindle Unltd",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.715
+    },
+    {
+     "merchant": "Kindle Unlimited",
+     "evidence": "Kindle Unltd",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Kindle Unlimited\" is not spelled out in \"Kindle Unltd\"",
+     "shown": "Kindle Unltd",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.362
+    },
+    {
+     "merchant": "Kindle Unlimited",
+     "evidence": "Kindle Unltd",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Kindle Unlimited\" is not spelled out in \"Kindle Unltd\"",
+     "shown": "Kindle Unltd",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.379
+    }
+   ]
+  },
+  {
+   "descriptor": "AMZN Mktp US*2K4L19ZX0",
+   "truth": "Amazon",
+   "accept": [
+    "Amazon",
+    "Amazon Marketplace",
+    "Amazon.com"
+   ],
+   "truth_kind": "other",
+   "baseline": "Amzn Mktp",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Amazon Marketplace",
+     "evidence": "AMZN Mktp",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Marketplace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.753
+    },
+    {
+     "merchant": "Amazon Marketplace",
+     "evidence": "AMZN Mktp",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Marketplace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.417
+    },
+    {
+     "merchant": "Amazon Marketplace",
+     "evidence": "AMZN Mktp",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Marketplace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.419
+    }
+   ]
+  },
+  {
+   "descriptor": "Amazon.com*MK1Q73",
+   "truth": "Amazon",
+   "accept": [
+    "Amazon"
+   ],
+   "truth_kind": "other",
+   "baseline": "Amazon",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Amazon.com",
+     "evidence": "Amazon.com",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.699
+    },
+    {
+     "merchant": "Amazon.com",
+     "evidence": "Amazon.com",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.357
+    },
+    {
+     "merchant": "Amazon.com",
+     "evidence": "Amazon.com",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.395
+    }
+   ]
+  },
+  {
+   "descriptor": "AMAZON BR",
+   "truth": "Amazon",
+   "accept": [
+    "Amazon"
+   ],
+   "truth_kind": "other",
+   "baseline": "Amazon",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Amazon",
+     "evidence": "AMAZON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.693
+    },
+    {
+     "merchant": "Amazon",
+     "evidence": "AMAZON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.372
+    },
+    {
+     "merchant": "Amazon",
+     "evidence": "AMAZON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.372
+    }
+   ]
+  },
+  {
+   "descriptor": "AMAZON WEB SERVICES",
+   "truth": "Amazon Web Services",
+   "accept": [
+    "Amazon Web Services",
+    "AWS"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Amazon Web Services",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Amazon Web Services",
+     "evidence": "AMAZON WEB SERVICES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Web Services",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.716
+    },
+    {
+     "merchant": "Amazon Web Services",
+     "evidence": "AMAZON WEB SERVICES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Web Services",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.377
+    },
+    {
+     "merchant": "Amazon Web Services",
+     "evidence": "AMAZON WEB SERVICES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Amazon Web Services",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.365
+    }
+   ]
+  },
+  {
+   "descriptor": "TWITCH INTERACTIVE",
+   "truth": "Twitch",
+   "accept": [
+    "Twitch"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Twitch Interactive",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Twitch",
+     "evidence": "TWITCH",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Twitch",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.706
+    },
+    {
+     "merchant": "Twitch",
+     "evidence": "TWITCH",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Twitch",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.381
+    },
+    {
+     "merchant": "Twitch",
+     "evidence": "TWITCH",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Twitch",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.395
+    }
+   ]
+  },
+  {
+   "descriptor": "CKO*PATREON* MEMBERSHIP",
+   "truth": "Patreon",
+   "accept": [
+    "Patreon"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Patreon Membership",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Patreon",
+     "evidence": "PATREON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Patreon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.713
+    },
+    {
+     "merchant": "Patreon",
+     "evidence": "PATREON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Patreon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.387
+    },
+    {
+     "merchant": "Patreon",
+     "evidence": "PATREON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Patreon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    }
+   ]
+  },
+  {
+   "descriptor": "SUBSTACK *NEWSLETTR",
+   "truth": "Substack",
+   "accept": [
+    "Substack"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Substack Newslettr",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Substack",
+     "evidence": "SUBSTACK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Substack",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.743
+    },
+    {
+     "merchant": "Substack",
+     "evidence": "SUBSTACK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Substack",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.358
+    },
+    {
+     "merchant": "Substack",
+     "evidence": "SUBSTACK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Substack",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.378
+    }
+   ]
+  },
+  {
+   "descriptor": "PLAYSTATION NETWORK",
+   "truth": "PlayStation",
+   "accept": [
+    "PlayStation",
+    "PlayStation Network",
+    "PlayStation Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Playstation Network",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "PlayStation Network",
+     "evidence": "PLAYSTATION NETWORK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "PlayStation Network",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.735
+    },
+    {
+     "merchant": "PlayStation Network",
+     "evidence": "PLAYSTATION NETWORK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "PlayStation Network",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    },
+    {
+     "merchant": "PlayStation Network",
+     "evidence": "PLAYSTATION NETWORK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "PlayStation Network",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.369
+    }
+   ]
+  },
+  {
+   "descriptor": "MICROSOFT*XBOX GAME PASS",
+   "truth": "Xbox",
+   "accept": [
+    "Xbox",
+    "Xbox Game Pass",
+    "Microsoft"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Microsoft Xbox Game Pass",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Xbox Game Pass",
+     "evidence": "XBOX GAME PASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Xbox Game Pass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.756
+    },
+    {
+     "merchant": "Xbox Game Pass",
+     "evidence": "XBOX GAME PASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Xbox Game Pass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.42
+    },
+    {
+     "merchant": "Xbox Game Pass",
+     "evidence": "XBOX GAME PASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Xbox Game Pass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.427
+    }
+   ]
+  },
+  {
+   "descriptor": "MSFT *E0300ABCDE",
+   "truth": "Microsoft",
+   "accept": [
+    "Microsoft"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Msft",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Microsoft",
+     "evidence": "MSFT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.701
+    },
+    {
+     "merchant": "Microsoft",
+     "evidence": "MSFT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.358
+    },
+    {
+     "merchant": "Microsoft",
+     "evidence": "MSFT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.365
+    }
+   ]
+  },
+  {
+   "descriptor": "MICROSOFT*MICROSOFT 365 P",
+   "truth": "Microsoft 365",
+   "accept": [
+    "Microsoft 365",
+    "Microsoft"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Microsoft Microsoft 365 P",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Microsoft 365",
+     "evidence": "MICROSOFT 365",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft 365",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.742
+    },
+    {
+     "merchant": "Microsoft 365",
+     "evidence": "MICROSOFT 365",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft 365",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.401
+    },
+    {
+     "merchant": "Microsoft 365",
+     "evidence": "MICROSOFT 365",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Microsoft 365",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.423
+    }
+   ]
+  },
+  {
+   "descriptor": "ADOBE *CREATIVE CLOUD 408-555-0122 CA",
+   "truth": "Adobe",
+   "accept": [
+    "Adobe",
+    "Adobe Creative Cloud"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Adobe Creative Cloud",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Adobe Creative Cloud",
+     "evidence": "ADOBE *CREATIVE CLOUD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe Creative Cloud",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.798
+    },
+    {
+     "merchant": "Adobe Creative Cloud",
+     "evidence": "ADOBE *CREATIVE CLOUD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe Creative Cloud",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.448
+    },
+    {
+     "merchant": "Adobe Creative Cloud",
+     "evidence": "ADOBE *CREATIVE CLOUD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe Creative Cloud",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.408
+    }
+   ]
+  },
+  {
+   "descriptor": "ADOBE *ACROPRO SUBS",
+   "truth": "Adobe",
+   "accept": [
+    "Adobe",
+    "Adobe Acrobat",
+    "Adobe Acrobat Pro"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Adobe Acropro Subs",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Adobe Acrobat",
+     "evidence": "ADOBE *ACROPRO",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Adobe Acrobat\" is not spelled out in \"ADOBE *ACROPRO\"",
+     "shown": "Adobe Acropro Subs",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.793
+    },
+    {
+     "merchant": "Adobe Acrobat",
+     "evidence": "ADOBE *ACROPRO",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Adobe Acrobat\" is not spelled out in \"ADOBE *ACROPRO\"",
+     "shown": "Adobe Acropro Subs",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.445
+    },
+    {
+     "merchant": "Adobe Acrobat",
+     "evidence": "ADOBE *ACROPRO",
+     "kind": "subscription",
+     "error": "",
+     "check": "\"Adobe Acrobat\" is not spelled out in \"ADOBE *ACROPRO\"",
+     "shown": "Adobe Acropro Subs",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.446
+    }
+   ]
+  },
+  {
+   "descriptor": "DRI*ADOBE",
+   "truth": "Adobe",
+   "accept": [
+    "Adobe"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Adobe",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Adobe",
+     "evidence": "ADOBE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.743
+    },
+    {
+     "merchant": "Adobe",
+     "evidence": "ADOBE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.374
+    },
+    {
+     "merchant": "Adobe",
+     "evidence": "ADOBE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Adobe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.355
+    }
+   ]
+  },
+  {
+   "descriptor": "OPENAI *CHATGPT SUBSCR",
+   "truth": "OpenAI",
+   "accept": [
+    "OpenAI",
+    "ChatGPT",
+    "OpenAI ChatGPT"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Openai Chatgpt Subscr",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "OpenAI ChatGPT",
+     "evidence": "OPENAI *CHATGPT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "OpenAI ChatGPT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.768
+    },
+    {
+     "merchant": "OpenAI ChatGPT",
+     "evidence": "OPENAI *CHATGPT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "OpenAI ChatGPT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.432
+    },
+    {
+     "merchant": "OpenAI ChatGPT",
+     "evidence": "OPENAI *CHATGPT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "OpenAI ChatGPT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.436
+    }
+   ]
+  },
+  {
+   "descriptor": "DROPBOX*ABC12XYZ",
+   "truth": "Dropbox",
+   "accept": [
+    "Dropbox"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Dropbox",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Dropbox",
+     "evidence": "DROPBOX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Dropbox",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.696
+    },
+    {
+     "merchant": "Dropbox",
+     "evidence": "DROPBOX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Dropbox",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.355
+    },
+    {
+     "merchant": "Dropbox",
+     "evidence": "DROPBOX",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Dropbox",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.394
+    }
+   ]
+  },
+  {
+   "descriptor": "GITHUB, INC.",
+   "truth": "GitHub",
+   "accept": [
+    "GitHub"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Github",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "GitHub",
+     "evidence": "GITHUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GitHub",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.694
+    },
+    {
+     "merchant": "GitHub",
+     "evidence": "GITHUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GitHub",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.359
+    },
+    {
+     "merchant": "GitHub",
+     "evidence": "GITHUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GitHub",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.361
+    }
+   ]
+  },
+  {
+   "descriptor": "NOTION LABS INC",
+   "truth": "Notion",
+   "accept": [
+    "Notion",
+    "Notion Labs"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Notion Labs",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Notion Labs Inc",
+     "evidence": "NOTION LABS INC",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Notion Labs Inc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.768
+    },
+    {
+     "merchant": "Notion Labs Inc",
+     "evidence": "NOTION LABS INC",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Notion Labs Inc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.403
+    },
+    {
+     "merchant": "Notion Labs Inc",
+     "evidence": "NOTION LABS INC",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Notion Labs Inc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.406
+    }
+   ]
+  },
+  {
+   "descriptor": "CANVA* I0412-5550142",
+   "truth": "Canva",
+   "accept": [
+    "Canva"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Canva I0412",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.777
+    },
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.427
+    },
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.412
+    }
+   ]
+  },
+  {
+   "descriptor": "DM *CANVA",
+   "truth": "Canva",
+   "accept": [
+    "Canva"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Canva",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.755
+    },
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.363
+    },
+    {
+     "merchant": "Canva",
+     "evidence": "CANVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Canva",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.373
+    }
+   ]
+  },
+  {
+   "descriptor": "1PASSWORD",
+   "truth": "1Password",
+   "accept": [
+    "1Password"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "1password",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "1Password",
+     "evidence": "1PASSWORD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "1Password",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.685
+    },
+    {
+     "merchant": "1Password",
+     "evidence": "1PASSWORD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "1Password",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.314
+    },
+    {
+     "merchant": "1Password",
+     "evidence": "1PASSWORD",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "1Password",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.313
+    }
+   ]
+  },
+  {
+   "descriptor": "NORTONLIFELOCK 855-555-0156",
+   "truth": "Norton",
+   "accept": [
+    "Norton",
+    "NortonLifeLock"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Nortonlifelock",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "NortonLifeLock",
+     "evidence": "NORTONLIFELOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NortonLifeLock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.814
+    },
+    {
+     "merchant": "NortonLifeLock",
+     "evidence": "NORTONLIFELOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NortonLifeLock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.455
+    },
+    {
+     "merchant": "NortonLifeLock",
+     "evidence": "NORTONLIFELOCK",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NortonLifeLock",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.451
+    }
+   ]
+  },
+  {
+   "descriptor": "NAMECHEAP.COM",
+   "truth": "Namecheap",
+   "accept": [
+    "Namecheap"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Namecheap",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Namecheap",
+     "evidence": "NAMECHEAP.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Namecheap",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.806
+    },
+    {
+     "merchant": "Namecheap",
+     "evidence": "NAMECHEAP.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Namecheap",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.446
+    },
+    {
+     "merchant": "Namecheap",
+     "evidence": "NAMECHEAP.COM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Namecheap",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.474
+    }
+   ]
+  },
+  {
+   "descriptor": "SQUARESPACE INC",
+   "truth": "Squarespace",
+   "accept": [
+    "Squarespace"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Squarespace",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Squarespace",
+     "evidence": "SQUARESPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Squarespace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.757
+    },
+    {
+     "merchant": "Squarespace",
+     "evidence": "SQUARESPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Squarespace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.401
+    },
+    {
+     "merchant": "Squarespace",
+     "evidence": "SQUARESPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Squarespace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.405
+    }
+   ]
+  },
+  {
+   "descriptor": "PADDLE.NET* SETAPP",
+   "truth": "Setapp",
+   "accept": [
+    "Setapp"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Setapp",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Setapp",
+     "evidence": "SETAPP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Setapp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.753
+    },
+    {
+     "merchant": "Setapp",
+     "evidence": "SETAPP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Setapp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.407
+    },
+    {
+     "merchant": "Setapp",
+     "evidence": "SETAPP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Setapp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.45
+    }
+   ]
+  },
+  {
+   "descriptor": "PADDLE.NET* N8N CLOUD1",
+   "truth": "n8n",
+   "accept": [
+    "n8n",
+    "n8n Cloud"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Paddle",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "n8n",
+     "evidence": "N8N",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "n8n",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.719
+    },
+    {
+     "merchant": "n8n",
+     "evidence": "N8N",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "n8n",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.361
+    },
+    {
+     "merchant": "n8n",
+     "evidence": "N8N",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "n8n",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.349
+    }
+   ]
+  },
+  {
+   "descriptor": "FS *SKETCH",
+   "truth": "Sketch",
+   "accept": [
+    "Sketch"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Sketch",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "SKETCH",
+     "evidence": "SKETCH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKETCH",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.764
+    },
+    {
+     "merchant": "SKETCH",
+     "evidence": "SKETCH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKETCH",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.369
+    },
+    {
+     "merchant": "SKETCH",
+     "evidence": "SKETCH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKETCH",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.38
+    }
+   ]
+  },
+  {
+   "descriptor": "2CO.COM|AVAST",
+   "truth": "Avast",
+   "accept": [
+    "Avast"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Avast",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Avast",
+     "evidence": "AVAST",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Avast",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.665
+    },
+    {
+     "merchant": "Avast",
+     "evidence": "AVAST",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Avast",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.34
+    },
+    {
+     "merchant": "Avast",
+     "evidence": "AVAST",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Avast",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.326
+    }
+   ]
+  },
+  {
+   "descriptor": "WWW.PERPLEXITY.AI",
+   "truth": "Perplexity",
+   "accept": [
+    "Perplexity",
+    "Perplexity AI"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Www.perplexity.ai",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Perplexity AI",
+     "evidence": "PERPLEXITY.AI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Perplexity AI",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.731
+    },
+    {
+     "merchant": "Perplexity AI",
+     "evidence": "PERPLEXITY.AI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Perplexity AI",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.382
+    },
+    {
+     "merchant": "Perplexity AI",
+     "evidence": "PERPLEXITY.AI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Perplexity AI",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.384
+    }
+   ]
+  },
+  {
+   "descriptor": "MIDJOURNEY INC.",
+   "truth": "Midjourney",
+   "accept": [
+    "Midjourney"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Midjourney",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Midjourney Inc.",
+     "evidence": "MIDJOURNEY INC.",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Midjourney Inc.",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.779
+    },
+    {
+     "merchant": "Midjourney Inc.",
+     "evidence": "MIDJOURNEY INC.",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Midjourney Inc.",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.498
+    },
+    {
+     "merchant": "Midjourney Inc.",
+     "evidence": "MIDJOURNEY INC.",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Midjourney Inc.",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.473
+    }
+   ]
+  },
+  {
+   "descriptor": "LINKEDIN P123456789",
+   "truth": "LinkedIn",
+   "accept": [
+    "LinkedIn"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Linkedin",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "LinkedIn",
+     "evidence": "LINKEDIN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "LinkedIn",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.77
+    },
+    {
+     "merchant": "LinkedIn",
+     "evidence": "LINKEDIN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "LinkedIn",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.372
+    },
+    {
+     "merchant": "LinkedIn",
+     "evidence": "LINKEDIN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "LinkedIn",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.395
+    }
+   ]
+  },
+  {
+   "descriptor": "INTUIT *QUICKBOOKS",
+   "truth": "QuickBooks",
+   "accept": [
+    "QuickBooks",
+    "Intuit",
+    "Intuit QuickBooks"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Intuit Quickbooks",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "QuickBooks",
+     "evidence": "QUICKBOOKS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "QuickBooks",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.73
+    },
+    {
+     "merchant": "QuickBooks",
+     "evidence": "QUICKBOOKS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "QuickBooks",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.362
+    },
+    {
+     "merchant": "QuickBooks",
+     "evidence": "QUICKBOOKS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "QuickBooks",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.362
+    }
+   ]
+  },
+  {
+   "descriptor": "DIGITALOCEAN.COM",
+   "truth": "DigitalOcean",
+   "accept": [
+    "DigitalOcean"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Digitalocean",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "DigitalOcean",
+     "evidence": "DIGITALOCEAN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "DigitalOcean",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.737
+    },
+    {
+     "merchant": "DigitalOcean",
+     "evidence": "DIGITALOCEAN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "DigitalOcean",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.366
+    },
+    {
+     "merchant": "DigitalOcean",
+     "evidence": "DIGITALOCEAN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "DigitalOcean",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.402
+    }
+   ]
+  },
+  {
+   "descriptor": "VERCEL INC.",
+   "truth": "Vercel",
+   "accept": [
+    "Vercel"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Vercel",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Vercel",
+     "evidence": "VERCEL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Vercel",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.724
+    },
+    {
+     "merchant": "Vercel",
+     "evidence": "VERCEL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Vercel",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.37
+    },
+    {
+     "merchant": "Vercel",
+     "evidence": "VERCEL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Vercel",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.359
+    }
+   ]
+  },
+  {
+   "descriptor": "MAILCHIMP *MONTHLY",
+   "truth": "Mailchimp",
+   "accept": [
+    "Mailchimp"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Mailchimp Monthly",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Mailchimp",
+     "evidence": "MAILCHIMP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Mailchimp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.741
+    },
+    {
+     "merchant": "Mailchimp",
+     "evidence": "MAILCHIMP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Mailchimp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.356
+    },
+    {
+     "merchant": "Mailchimp",
+     "evidence": "MAILCHIMP",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Mailchimp",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.368
+    }
+   ]
+  },
+  {
+   "descriptor": "GODADDY.COM 480-555-0103",
+   "truth": "GoDaddy",
+   "accept": [
+    "GoDaddy"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Godaddy",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "GoDaddy",
+     "evidence": "GODADDY.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GoDaddy",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.76
+    },
+    {
+     "merchant": "GoDaddy",
+     "evidence": "GODADDY.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GoDaddy",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.366
+    },
+    {
+     "merchant": "GoDaddy",
+     "evidence": "GODADDY.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "GoDaddy",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.38
+    }
+   ]
+  },
+  {
+   "descriptor": "NORD*NORDVPN",
+   "truth": "NordVPN",
+   "accept": [
+    "NordVPN"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Nord Nordvpn",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "NordVPN",
+     "evidence": "NORDVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NordVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.713
+    },
+    {
+     "merchant": "NordVPN",
+     "evidence": "NORDVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NordVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.371
+    },
+    {
+     "merchant": "NordVPN",
+     "evidence": "NORDVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NordVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.386
+    }
+   ]
+  },
+  {
+   "descriptor": "EXPRESSVPN",
+   "truth": "ExpressVPN",
+   "accept": [
+    "ExpressVPN"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Expressvpn",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "ExpressVPN",
+     "evidence": "EXPRESSVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ExpressVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.724
+    },
+    {
+     "merchant": "ExpressVPN",
+     "evidence": "EXPRESSVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ExpressVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.361
+    },
+    {
+     "merchant": "ExpressVPN",
+     "evidence": "EXPRESSVPN",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ExpressVPN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.357
+    }
+   ]
+  },
+  {
+   "descriptor": "ESPN PLUS",
+   "truth": "ESPN+",
+   "accept": [
+    "ESPN+",
+    "ESPN Plus",
+    "ESPN"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Espn Plus",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "ESPN Plus",
+     "evidence": "ESPN PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ESPN Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.728
+    },
+    {
+     "merchant": "ESPN Plus",
+     "evidence": "ESPN PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ESPN Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.369
+    },
+    {
+     "merchant": "ESPN Plus",
+     "evidence": "ESPN PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "ESPN Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.383
+    }
+   ]
+  },
+  {
+   "descriptor": "PANDORA *PLUS",
+   "truth": "Pandora",
+   "accept": [
+    "Pandora",
+    "Pandora Plus"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Pandora Plus",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Pandora Plus",
+     "evidence": "PANDORA *PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Pandora Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.748
+    },
+    {
+     "merchant": "Pandora Plus",
+     "evidence": "PANDORA *PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Pandora Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.425
+    },
+    {
+     "merchant": "Pandora Plus",
+     "evidence": "PANDORA *PLUS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Pandora Plus",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.45
+    }
+   ]
+  },
+  {
+   "descriptor": "TIDAL.COM",
+   "truth": "Tidal",
+   "accept": [
+    "Tidal"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Tidal",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Tidal",
+     "evidence": "TIDAL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tidal",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.72
+    },
+    {
+     "merchant": "Tidal",
+     "evidence": "TIDAL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tidal",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.357
+    },
+    {
+     "merchant": "Tidal",
+     "evidence": "TIDAL",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tidal",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.388
+    }
+   ]
+  },
+  {
+   "descriptor": "ROKU FOR SLING TV",
+   "truth": "Sling TV",
+   "accept": [
+    "Sling TV",
+    "Sling",
+    "Roku"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Roku For Sling Tv",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Roku",
+     "evidence": "ROKU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Roku",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.797
+    },
+    {
+     "merchant": "Roku",
+     "evidence": "ROKU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Roku",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.408
+    },
+    {
+     "merchant": "Roku",
+     "evidence": "ROKU",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Roku",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.419
+    }
+   ]
+  },
+  {
+   "descriptor": "DUOLINGO",
+   "truth": "Duolingo",
+   "accept": [
+    "Duolingo"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Duolingo",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.707
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.364
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.399
+    }
+   ]
+  },
+  {
+   "descriptor": "PAG*DUOLINGO",
+   "truth": "Duolingo",
+   "accept": [
+    "Duolingo"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Duolingo",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.732
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.368
+    },
+    {
+     "merchant": "Duolingo",
+     "evidence": "DUOLINGO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Duolingo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.409
+    }
+   ]
+  },
+  {
+   "descriptor": "HEADSPACE 555-0119",
+   "truth": "Headspace",
+   "accept": [
+    "Headspace"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Headspace",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Headspace",
+     "evidence": "HEADSPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Headspace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.699
+    },
+    {
+     "merchant": "Headspace",
+     "evidence": "HEADSPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Headspace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.346
+    },
+    {
+     "merchant": "Headspace",
+     "evidence": "HEADSPACE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Headspace",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.341
+    }
+   ]
+  },
+  {
+   "descriptor": "CALM.COM",
+   "truth": "Calm",
+   "accept": [
+    "Calm"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Calm",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Calm",
+     "evidence": "CALM.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Calm",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.754
+    },
+    {
+     "merchant": "Calm",
+     "evidence": "CALM.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Calm",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.41
+    },
+    {
+     "merchant": "Calm",
+     "evidence": "CALM.COM",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Calm",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.412
+    }
+   ]
+  },
+  {
+   "descriptor": "STRAVA",
+   "truth": "Strava",
+   "accept": [
+    "Strava"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Strava",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Strava",
+     "evidence": "STRAVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Strava",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.706
+    },
+    {
+     "merchant": "Strava",
+     "evidence": "STRAVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Strava",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.342
+    },
+    {
+     "merchant": "Strava",
+     "evidence": "STRAVA",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Strava",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.333
+    }
+   ]
+  },
+  {
+   "descriptor": "PELOTON* MEMBERSHIP",
+   "truth": "Peloton",
+   "accept": [
+    "Peloton"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Peloton Membership",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Peloton",
+     "evidence": "PELOTON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peloton",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.715
+    },
+    {
+     "merchant": "Peloton",
+     "evidence": "PELOTON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peloton",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.365
+    },
+    {
+     "merchant": "Peloton",
+     "evidence": "PELOTON",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Peloton",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.365
+    }
+   ]
+  },
+  {
+   "descriptor": "PLANET FIT*CLUB FEES",
+   "truth": "Planet Fitness",
+   "accept": [
+    "Planet Fitness"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Planet Fit Club Fees",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.737
+    },
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.378
+    },
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.381
+    }
+   ]
+  },
+  {
+   "descriptor": "PLANET FIT*ANNUAL FEE",
+   "truth": "Planet Fitness",
+   "accept": [
+    "Planet Fitness"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Planet Fit Annual Fee",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.74
+    },
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.404
+    },
+    {
+     "merchant": "Planet Fit",
+     "evidence": "PLANET FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Planet Fit",
+     "outcome": "incomplete_passed",
+     "shown_score": "incomplete",
+     "seconds": 0.389
+    }
+   ]
+  },
+  {
+   "descriptor": "DEB AUTOM SMART FIT",
+   "truth": "Smart Fit",
+   "accept": [
+    "Smart Fit"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Smart Fit",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Smart Fit",
+     "evidence": "SMART FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Smart Fit",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.774
+    },
+    {
+     "merchant": "Smart Fit",
+     "evidence": "SMART FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Smart Fit",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.384
+    },
+    {
+     "merchant": "Smart Fit",
+     "evidence": "SMART FIT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Smart Fit",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.406
+    }
+   ]
+  },
+  {
+   "descriptor": "ANYTIME FITNESS",
+   "truth": "Anytime Fitness",
+   "accept": [
+    "Anytime Fitness"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Anytime Fitness",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Anytime Fitness",
+     "evidence": "ANYTIME FITNESS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Anytime Fitness",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.736
+    },
+    {
+     "merchant": "Anytime Fitness",
+     "evidence": "ANYTIME FITNESS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Anytime Fitness",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.38
+    },
+    {
+     "merchant": "Anytime Fitness",
+     "evidence": "ANYTIME FITNESS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Anytime Fitness",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.38
+    }
+   ]
+  },
+  {
+   "descriptor": "GYMPASS*WELLHUB",
+   "truth": "Wellhub",
+   "accept": [
+    "Wellhub",
+    "Gympass"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Gympass Wellhub",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Gympass",
+     "evidence": "GYMPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Gympass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.738
+    },
+    {
+     "merchant": "Gympass",
+     "evidence": "GYMPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Gympass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.381
+    },
+    {
+     "merchant": "Gympass",
+     "evidence": "GYMPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Gympass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.408
+    }
+   ]
+  },
+  {
+   "descriptor": "TOTALPASS",
+   "truth": "TotalPass",
+   "accept": [
+    "TotalPass"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Totalpass",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "TotalPass",
+     "evidence": "TOTALPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "TotalPass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.687
+    },
+    {
+     "merchant": "TotalPass",
+     "evidence": "TOTALPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "TotalPass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.373
+    },
+    {
+     "merchant": "TotalPass",
+     "evidence": "TOTALPASS",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "TotalPass",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.344
+    }
+   ]
+  },
+  {
+   "descriptor": "NYTIMES*NYTIMES SUBSCR",
+   "truth": "The New York Times",
+   "accept": [
+    "The New York Times",
+    "New York Times",
+    "NYTimes",
+    "NYT"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Nytimes Nytimes Subscr",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "NYTIMES",
+     "evidence": "NYTIMES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYTIMES",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.716
+    },
+    {
+     "merchant": "NYTIMES",
+     "evidence": "NYTIMES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYTIMES",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.366
+    },
+    {
+     "merchant": "NYTIMES",
+     "evidence": "NYTIMES",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYTIMES",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.37
+    }
+   ]
+  },
+  {
+   "descriptor": "NYT*DIGITAL SUBSCRIPTION",
+   "truth": "The New York Times",
+   "accept": [
+    "The New York Times",
+    "New York Times",
+    "NYT"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Nyt Digital Subscription",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "NYT",
+     "evidence": "NYT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.727
+    },
+    {
+     "merchant": "NYT",
+     "evidence": "NYT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.387
+    },
+    {
+     "merchant": "NYT",
+     "evidence": "NYT",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "NYT",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.386
+    }
+   ]
+  },
+  {
+   "descriptor": "WSJ DIGITAL",
+   "truth": "The Wall Street Journal",
+   "accept": [
+    "The Wall Street Journal",
+    "Wall Street Journal",
+    "WSJ"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Wsj Digital",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "WSJ",
+     "evidence": "WSJ",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "WSJ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.73
+    },
+    {
+     "merchant": "WSJ",
+     "evidence": "WSJ",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "WSJ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.377
+    },
+    {
+     "merchant": "WSJ",
+     "evidence": "WSJ",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "WSJ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    }
+   ]
+  },
+  {
+   "descriptor": "HELLOFRESH 646-555-0187 NY",
+   "truth": "HelloFresh",
+   "accept": [
+    "HelloFresh"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Hellofresh",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "HelloFresh",
+     "evidence": "HELLOFRESH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "HelloFresh",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.748
+    },
+    {
+     "merchant": "HelloFresh",
+     "evidence": "HELLOFRESH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "HelloFresh",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.379
+    },
+    {
+     "merchant": "HelloFresh",
+     "evidence": "HELLOFRESH",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "HelloFresh",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.393
+    }
+   ]
+  },
+  {
+   "descriptor": "IFD*IFOOD CLUB",
+   "truth": "iFood",
+   "accept": [
+    "iFood",
+    "iFood Club"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Ifood Club",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "iFood Club",
+     "evidence": "IFOOD CLUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iFood Club",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.762
+    },
+    {
+     "merchant": "iFood Club",
+     "evidence": "IFOOD CLUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iFood Club",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.402
+    },
+    {
+     "merchant": "iFood Club",
+     "evidence": "IFOOD CLUB",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "iFood Club",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    }
+   ]
+  },
+  {
+   "descriptor": "UBER *ONE",
+   "truth": "Uber One",
+   "accept": [
+    "Uber One",
+    "Uber"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Uber One",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Uber One",
+     "evidence": "UBER *ONE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.853
+    },
+    {
+     "merchant": "Uber One",
+     "evidence": "UBER *ONE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.537
+    },
+    {
+     "merchant": "Uber One",
+     "evidence": "UBER *ONE",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber One",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.519
+    }
+   ]
+  },
+  {
+   "descriptor": "MP*MELIMAIS",
+   "truth": "Meli+",
+   "accept": [
+    "Meli+",
+    "Meli Mais",
+    "Mercado Livre",
+    "Melimais"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Melimais",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "MELIMAIS",
+     "evidence": "MELIMAIS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "MELIMAIS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.77
+    },
+    {
+     "merchant": "MELIMAIS",
+     "evidence": "MELIMAIS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "MELIMAIS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.372
+    },
+    {
+     "merchant": "MELIMAIS",
+     "evidence": "MELIMAIS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "MELIMAIS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.397
+    }
+   ]
+  },
+  {
+   "descriptor": "RAPPI*RAPPIPRIME",
+   "truth": "Rappi",
+   "accept": [
+    "Rappi",
+    "Rappi Prime"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Rappi Rappiprime",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Rappi",
+     "evidence": "RAPPI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Rappi",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.758
+    },
+    {
+     "merchant": "Rappi",
+     "evidence": "RAPPI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Rappi",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.384
+    },
+    {
+     "merchant": "Rappi",
+     "evidence": "RAPPI",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Rappi",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.402
+    }
+   ]
+  },
+  {
+   "descriptor": "PG *TINDER",
+   "truth": "Tinder",
+   "accept": [
+    "Tinder"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Tinder",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Tinder",
+     "evidence": "TINDER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tinder",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.761
+    },
+    {
+     "merchant": "Tinder",
+     "evidence": "TINDER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tinder",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.376
+    },
+    {
+     "merchant": "Tinder",
+     "evidence": "TINDER",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Tinder",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.392
+    }
+   ]
+  },
+  {
+   "descriptor": "COSTCO *ANNUAL RENEWAL",
+   "truth": "Costco",
+   "accept": [
+    "Costco"
+   ],
+   "truth_kind": "subscription",
+   "baseline": "Costco Annual Renewal",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Costco",
+     "evidence": "COSTCO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.76
+    },
+    {
+     "merchant": "Costco",
+     "evidence": "COSTCO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.368
+    },
+    {
+     "merchant": "Costco",
+     "evidence": "COSTCO",
+     "kind": "subscription",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.375
+    }
+   ]
+  },
+  {
+   "descriptor": "VIVO FIBRA",
+   "truth": "Vivo",
+   "accept": [
+    "Vivo",
+    "Vivo Fibra"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Vivo Fibra",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "VIVO FIBRA",
+     "evidence": "VIVO FIBRA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Vivo Fibra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.843
+    },
+    {
+     "merchant": "VIVO FIBRA",
+     "evidence": "VIVO FIBRA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Vivo Fibra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.481
+    },
+    {
+     "merchant": "VIVO FIBRA",
+     "evidence": "VIVO FIBRA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Vivo Fibra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.484
+    }
+   ]
+  },
+  {
+   "descriptor": "CLARO SA",
+   "truth": "Claro",
+   "accept": [
+    "Claro"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Claro",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Claro",
+     "evidence": "CLARO",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Claro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.802
+    },
+    {
+     "merchant": "Claro",
+     "evidence": "CLARO",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Claro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.416
+    },
+    {
+     "merchant": "Claro",
+     "evidence": "CLARO",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Claro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.389
+    }
+   ]
+  },
+  {
+   "descriptor": "NET SERVICOS",
+   "truth": "NET",
+   "accept": [
+    "NET",
+    "Net Servicos",
+    "Claro"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Net Servicos",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "NET SERVICOS",
+     "evidence": "NET SERVICOS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Net Servicos",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.868
+    },
+    {
+     "merchant": "NET SERVICOS",
+     "evidence": "NET SERVICOS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Net Servicos",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.441
+    },
+    {
+     "merchant": "NET SERVICOS",
+     "evidence": "NET SERVICOS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Net Servicos",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.456
+    }
+   ]
+  },
+  {
+   "descriptor": "SKY SERVICOS",
+   "truth": "Sky",
+   "accept": [
+    "Sky",
+    "Sky Servicos"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Sky Servicos",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "SKY",
+     "evidence": "SKY",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKY",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.812
+    },
+    {
+     "merchant": "SKY",
+     "evidence": "SKY",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKY",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.406
+    },
+    {
+     "merchant": "SKY",
+     "evidence": "SKY",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SKY",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.409
+    }
+   ]
+  },
+  {
+   "descriptor": "SEM PARAR",
+   "truth": "Sem Parar",
+   "accept": [
+    "Sem Parar"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Sem Parar",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "SEM PARAR",
+     "evidence": "SEM PARAR",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sem Parar",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.829
+    },
+    {
+     "merchant": "SEM PARAR",
+     "evidence": "SEM PARAR",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sem Parar",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.402
+    },
+    {
+     "merchant": "SEM PARAR",
+     "evidence": "SEM PARAR",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sem Parar",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.415
+    }
+   ]
+  },
+  {
+   "descriptor": "SANEVALE",
+   "truth": "Sanevale",
+   "accept": [
+    "Sanevale"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Sanevale",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Sanevale",
+     "evidence": "SANEVALE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sanevale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.922
+    },
+    {
+     "merchant": "Sanevale",
+     "evidence": "SANEVALE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sanevale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.484
+    },
+    {
+     "merchant": "Sanevale",
+     "evidence": "SANEVALE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Sanevale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.498
+    }
+   ]
+  },
+  {
+   "descriptor": "SERRAGAS",
+   "truth": "Serragás",
+   "accept": [
+    "Serragás",
+    "Serragas"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Serragas",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "SERRAGAS",
+     "evidence": "SERRAGAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SERRAGAS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.879
+    },
+    {
+     "merchant": "SERRAGAS",
+     "evidence": "SERRAGAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SERRAGAS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.474
+    },
+    {
+     "merchant": "SERRAGAS",
+     "evidence": "SERRAGAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "SERRAGAS",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.482
+    }
+   ]
+  },
+  {
+   "descriptor": "FORTALUZ SESA",
+   "truth": "Fortaluz",
+   "accept": [
+    "Fortaluz"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Fortaluz Sesa",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "FORTALUZ",
+     "evidence": "FORTALUZ",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "FORTALUZ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.932
+    },
+    {
+     "merchant": "FORTALUZ",
+     "evidence": "FORTALUZ",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "FORTALUZ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.528
+    },
+    {
+     "merchant": "FORTALUZ",
+     "evidence": "FORTALUZ",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "FORTALUZ",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.511
+    }
+   ]
+  },
+  {
+   "descriptor": "LUMEVALE ENERGIA DISTRIB",
+   "truth": "Lumevale",
+   "accept": [
+    "Lumevale",
+    "Lumevale Energia",
+    "Lumevale Energia Distribuição"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Lumevale Energia Distrib",
+   "in_examples": true,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "Lumevale Energia",
+     "evidence": "LUMEVALE ENERGIA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Lumevale Energia",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.009
+    },
+    {
+     "merchant": "Lumevale Energia",
+     "evidence": "LUMEVALE ENERGIA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Lumevale Energia",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.57
+    },
+    {
+     "merchant": "Lumevale Energia",
+     "evidence": "LUMEVALE ENERGIA",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Lumevale Energia",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.546
+    }
+   ]
+  },
+  {
+   "descriptor": "PORTO SEGURO AUTO",
+   "truth": "Porto Seguro",
+   "accept": [
+    "Porto Seguro",
+    "Porto Seguro Auto"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Porto Seguro Auto",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Porto Seguro Auto",
+     "evidence": "PORTO SEGURO AUTO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Porto Seguro Auto",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.988
+    },
+    {
+     "merchant": "Porto Seguro Auto",
+     "evidence": "PORTO SEGURO AUTO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Porto Seguro Auto",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.565
+    },
+    {
+     "merchant": "Porto Seguro Auto",
+     "evidence": "PORTO SEGURO AUTO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Porto Seguro Auto",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.602
+    }
+   ]
+  },
+  {
+   "descriptor": "VERIZON WRLS 555-01 CA",
+   "truth": "Verizon",
+   "accept": [
+    "Verizon",
+    "Verizon Wireless"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Verizon Wrls 555-01",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Verizon Wireless",
+     "evidence": "VERIZON WRLS",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Verizon Wireless",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.105
+    },
+    {
+     "merchant": "Verizon Wireless",
+     "evidence": "VERIZON WRLS",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Verizon Wireless",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.666
+    },
+    {
+     "merchant": "Verizon Wireless",
+     "evidence": "VERIZON WRLS",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Verizon Wireless",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.635
+    }
+   ]
+  },
+  {
+   "descriptor": "COMCAST CABLE COMM",
+   "truth": "Comcast",
+   "accept": [
+    "Comcast",
+    "Xfinity",
+    "Comcast Cable",
+    "Comcast Cable Communications"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Comcast Cable Comm",
+   "in_examples": false,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "Comcast Cable Communications",
+     "evidence": "COMCAST CABLE COMM",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Comcast Cable Communications",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.078
+    },
+    {
+     "merchant": "Comcast Cable Communications",
+     "evidence": "COMCAST CABLE COMM",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Comcast Cable Communications",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.64
+    },
+    {
+     "merchant": "Comcast Cable Communications",
+     "evidence": "COMCAST CABLE COMM",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "Comcast Cable Communications",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.675
+    }
+   ]
+  },
+  {
+   "descriptor": "AT&T*BILL PAYMENT",
+   "truth": "AT&T",
+   "accept": [
+    "AT&T"
+   ],
+   "truth_kind": "bill",
+   "baseline": "At&t Bill Payment",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "AT&T",
+     "evidence": "AT&T",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "AT&T",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.975
+    },
+    {
+     "merchant": "AT&T",
+     "evidence": "AT&T",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "AT&T",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.469
+    },
+    {
+     "merchant": "AT&T",
+     "evidence": "AT&T",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "AT&T",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.488
+    }
+   ]
+  },
+  {
+   "descriptor": "T-MOBILE*AUTO PAY",
+   "truth": "T-Mobile",
+   "accept": [
+    "T-Mobile"
+   ],
+   "truth_kind": "bill",
+   "baseline": "T-Mobile Auto Pay",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "T-Mobile",
+     "evidence": "T-MOBILE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "T-Mobile",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.016
+    },
+    {
+     "merchant": "T-Mobile",
+     "evidence": "T-MOBILE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "T-Mobile",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.519
+    },
+    {
+     "merchant": "T-Mobile",
+     "evidence": "T-MOBILE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "T-Mobile",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.532
+    }
+   ]
+  },
+  {
+   "descriptor": "GEICO *AUTO 800-555-0123 DC",
+   "truth": "GEICO",
+   "accept": [
+    "GEICO",
+    "GEICO Auto Insurance"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Geico Auto",
+   "in_examples": true,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "GEICO",
+     "evidence": "GEICO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "GEICO",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.0
+    },
+    {
+     "merchant": "GEICO",
+     "evidence": "GEICO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "GEICO",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.497
+    },
+    {
+     "merchant": "GEICO",
+     "evidence": "GEICO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "GEICO",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.508
+    }
+   ]
+  },
+  {
+   "descriptor": "STATE FARM INSURANCE",
+   "truth": "State Farm",
+   "accept": [
+    "State Farm",
+    "State Farm Insurance"
+   ],
+   "truth_kind": "bill",
+   "baseline": "State Farm Insurance",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "State Farm Insurance",
+     "evidence": "STATE FARM INSURANCE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "State Farm Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.004
+    },
+    {
+     "merchant": "State Farm Insurance",
+     "evidence": "STATE FARM INSURANCE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "State Farm Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.507
+    },
+    {
+     "merchant": "State Farm Insurance",
+     "evidence": "STATE FARM INSURANCE",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "State Farm Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.502
+    }
+   ]
+  },
+  {
+   "descriptor": "HARBORLITE ELEC OF NY INTELL CK",
+   "truth": "Harborlite",
+   "accept": [
+    "Harborlite",
+    "Harborlite Electric",
+    "Harborlite Electric of New York"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Harborlite Elec Of Ny Intell Ck",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Harborlite Electric",
+     "evidence": "HARBORLITE ELEC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Harborlite Electric",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.066
+    },
+    {
+     "merchant": "Harborlite Electric",
+     "evidence": "HARBORLITE ELEC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Harborlite Electric",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.566
+    },
+    {
+     "merchant": "Harborlite Electric",
+     "evidence": "HARBORLITE ELEC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Harborlite Electric",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.602
+    }
+   ]
+  },
+  {
+   "descriptor": "TVGANDE WEB ONLINE",
+   "truth": "TVG&E",
+   "accept": [
+    "TVG&E",
+    "TVGandE",
+    "Tri-Valley Gas and Electric"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Tvgande Web Online",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "TVGANDE",
+     "evidence": "TVGANDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TVGANDE",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.158
+    },
+    {
+     "merchant": "TVGANDE",
+     "evidence": "TVGANDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TVGANDE",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.601
+    },
+    {
+     "merchant": "TVGANDE",
+     "evidence": "TVGANDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TVGANDE",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.568
+    }
+   ]
+  },
+  {
+   "descriptor": "CITY OF ASHBURY WATER UTIL",
+   "truth": "City of Ashbury",
+   "accept": [
+    "City of Ashbury",
+    "City of Ashbury Water",
+    "City of Ashbury Water Utility",
+    "City of Ashbury Water Utilities",
+    "Ashbury Water"
+   ],
+   "truth_kind": "bill",
+   "baseline": "City Of Ashbury Water Util",
+   "in_examples": true,
+   "baseline_score": "incomplete",
+   "runs": [
+    {
+     "merchant": "City of Ashbury Water",
+     "evidence": "CITY OF ASHBURY WATER",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "City of Ashbury Water",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.155
+    },
+    {
+     "merchant": "City of Ashbury Water",
+     "evidence": "CITY OF ASHBURY WATER",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "City of Ashbury Water",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.664
+    },
+    {
+     "merchant": "City of Ashbury Water",
+     "evidence": "CITY OF ASHBURY WATER",
+     "kind": "bill",
+     "error": "",
+     "check": "ok",
+     "shown": "City of Ashbury Water",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.703
+    }
+   ]
+  },
+  {
+   "descriptor": "PRUDENTIAL INS PREM",
+   "truth": "Prudential",
+   "accept": [
+    "Prudential",
+    "Prudential Insurance"
+   ],
+   "truth_kind": "bill",
+   "baseline": "Prudential Ins Prem",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Prudential Insurance",
+     "evidence": "PRUDENTIAL INS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Prudential Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.36
+    },
+    {
+     "merchant": "Prudential Insurance",
+     "evidence": "PRUDENTIAL INS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Prudential Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.746
+    },
+    {
+     "merchant": "Prudential Insurance",
+     "evidence": "PRUDENTIAL INS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Prudential Insurance",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.798
+    }
+   ]
+  },
+  {
+   "descriptor": "TED ALUGUEL IMOB HORIZONTE",
+   "truth": "Imobiliária Horizonte",
+   "accept": [
+    "Imobiliária Horizonte",
+    "Horizonte"
+   ],
+   "truth_kind": "loan_or_rent",
+   "baseline": "Aluguel Imob Horizonte",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "ALUGUEL IMOB HORIZONTE",
+     "evidence": "ALUGUEL IMOB HORIZONTE",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Aluguel Imob Horizonte",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.5
+    },
+    {
+     "merchant": "ALUGUEL IMOB HORIZONTE",
+     "evidence": "ALUGUEL IMOB HORIZONTE",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Aluguel Imob Horizonte",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.972
+    },
+    {
+     "merchant": "ALUGUEL IMOB HORIZONTE",
+     "evidence": "ALUGUEL IMOB HORIZONTE",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Aluguel Imob Horizonte",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.943
+    }
+   ]
+  },
+  {
+   "descriptor": "ACH DEBIT OAKWOOD PROPERTY MGMT RENT",
+   "truth": "Oakwood Property Management",
+   "accept": [
+    "Oakwood Property Management",
+    "Oakwood"
+   ],
+   "truth_kind": "loan_or_rent",
+   "baseline": "Oakwood Property Mgmt Rent",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Oakwood Property Management",
+     "evidence": "OAKWOOD PROPERTY MGMT",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Oakwood Property Management",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.257
+    },
+    {
+     "merchant": "Oakwood Property Management",
+     "evidence": "OAKWOOD PROPERTY MGMT",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Oakwood Property Management",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.716
+    },
+    {
+     "merchant": "Oakwood Property Management",
+     "evidence": "OAKWOOD PROPERTY MGMT",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Oakwood Property Management",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.733
+    }
+   ]
+  },
+  {
+   "descriptor": "ONLINE PAYMENT QUILLMONT AUTO FINANCIAL SVCS",
+   "truth": "Quillmont Auto Financial Services",
+   "accept": [
+    "Quillmont Auto Financial Services",
+    "Quillmont Auto Financial",
+    "Quillmont Auto",
+    "Quillmont"
+   ],
+   "truth_kind": "loan_or_rent",
+   "baseline": "Quillmont Auto Financial Svcs",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "QUILLMONT AUTO FINANCIAL SVCS",
+     "evidence": "QUILLMONT AUTO FINANCIAL SVCS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Quillmont Auto Financial Svcs",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.357
+    },
+    {
+     "merchant": "QUILLMONT AUTO FINANCIAL SVCS",
+     "evidence": "QUILLMONT AUTO FINANCIAL SVCS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Quillmont Auto Financial Svcs",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.771
+    },
+    {
+     "merchant": "QUILLMONT AUTO FINANCIAL SVCS",
+     "evidence": "QUILLMONT AUTO FINANCIAL SVCS",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Quillmont Auto Financial Svcs",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.816
+    }
+   ]
+  },
+  {
+   "descriptor": "STUDENTARC PAYMENT",
+   "truth": "StudentArc",
+   "accept": [
+    "StudentArc"
+   ],
+   "truth_kind": "loan_or_rent",
+   "baseline": "Studentarc Payment",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "StudentArc",
+     "evidence": "STUDENTARC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "StudentArc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.165
+    },
+    {
+     "merchant": "StudentArc",
+     "evidence": "STUDENTARC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "StudentArc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.573
+    },
+    {
+     "merchant": "StudentArc",
+     "evidence": "STUDENTARC",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "StudentArc",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.593
+    }
+   ]
+  },
+  {
+   "descriptor": "PARC FINANC MORADA NOVA 0001234",
+   "truth": "Morada Nova",
+   "accept": [
+    "Morada Nova",
+    "Morada Nova Financiamento"
+   ],
+   "truth_kind": "loan_or_rent",
+   "baseline": "Parc Financ Morada Nova",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "PARC FINANC MORADA NOVA",
+     "evidence": "PARC FINANC MORADA NOVA",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Parc Financ Morada Nova",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.451
+    },
+    {
+     "merchant": "PARC FINANC MORADA NOVA",
+     "evidence": "PARC FINANC MORADA NOVA",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Parc Financ Morada Nova",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.803
+    },
+    {
+     "merchant": "PARC FINANC MORADA NOVA",
+     "evidence": "PARC FINANC MORADA NOVA",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Parc Financ Morada Nova",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.798
+    }
+   ]
+  },
+  {
+   "descriptor": "UBER *TRIP",
+   "truth": "Uber",
+   "accept": [
+    "Uber"
+   ],
+   "truth_kind": "other",
+   "baseline": "Uber Trip",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.178
+    },
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.588
+    },
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.548
+    }
+   ]
+  },
+  {
+   "descriptor": "UBER *TRIP HELP.UBER.COM",
+   "truth": "Uber",
+   "accept": [
+    "Uber"
+   ],
+   "truth_kind": "other",
+   "baseline": "Uber Trip",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.181
+    },
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.577
+    },
+    {
+     "merchant": "Uber",
+     "evidence": "UBER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Uber",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.624
+    }
+   ]
+  },
+  {
+   "descriptor": "LYFT *RIDE TUE 5PM",
+   "truth": "Lyft",
+   "accept": [
+    "Lyft"
+   ],
+   "truth_kind": "other",
+   "baseline": "Lyft Ride",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Lyft",
+     "evidence": "LYFT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lyft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.186
+    },
+    {
+     "merchant": "Lyft",
+     "evidence": "LYFT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lyft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.565
+    },
+    {
+     "merchant": "Lyft",
+     "evidence": "LYFT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lyft",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.6
+    }
+   ]
+  },
+  {
+   "descriptor": "99APP *99RIDE",
+   "truth": "99",
+   "accept": [
+    "99",
+    "99App",
+    "99 App"
+   ],
+   "truth_kind": "other",
+   "baseline": "99app",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "99Ride",
+     "evidence": "99RIDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "99Ride",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.405
+    },
+    {
+     "merchant": "99Ride",
+     "evidence": "99RIDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "99Ride",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.7
+    },
+    {
+     "merchant": "99Ride",
+     "evidence": "99RIDE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "99Ride",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.724
+    }
+   ]
+  },
+  {
+   "descriptor": "COSTCO WHSE #0482",
+   "truth": "Costco",
+   "accept": [
+    "Costco",
+    "Costco Wholesale"
+   ],
+   "truth_kind": "other",
+   "baseline": "Costco Whse",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Costco Wholesale",
+     "evidence": "COSTCO WHSE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco Wholesale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.194
+    },
+    {
+     "merchant": "Costco Wholesale",
+     "evidence": "COSTCO WHSE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco Wholesale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.557
+    },
+    {
+     "merchant": "Costco Wholesale",
+     "evidence": "COSTCO WHSE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Costco Wholesale",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.57
+    }
+   ]
+  },
+  {
+   "descriptor": "WHOLEFDS MKT 10234",
+   "truth": "Whole Foods",
+   "accept": [
+    "Whole Foods",
+    "Whole Foods Market"
+   ],
+   "truth_kind": "other",
+   "baseline": "Wholefds Mkt",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.241
+    },
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.658
+    },
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.67
+    }
+   ]
+  },
+  {
+   "descriptor": "PURCHASE AUTHORIZED ON 03/14 WHOLEFDS MKT 10234 AUSTIN TX",
+   "truth": "Whole Foods",
+   "accept": [
+    "Whole Foods",
+    "Whole Foods Market"
+   ],
+   "truth_kind": "other",
+   "baseline": "Wholefds Mkt",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 1.346
+    },
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.769
+    },
+    {
+     "merchant": "WHOLEFDS MKT",
+     "evidence": "WHOLEFDS MKT",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Wholefds Mkt",
+     "outcome": "wrong_passed",
+     "shown_score": "wrong",
+     "seconds": 0.743
+    }
+   ]
+  },
+  {
+   "descriptor": "TRADER JOE S #552",
+   "truth": "Trader Joe's",
+   "accept": [
+    "Trader Joe's",
+    "Trader Joes"
+   ],
+   "truth_kind": "other",
+   "baseline": "Trader Joe S",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Trader Joe's",
+     "evidence": "TRADER JOE S",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Trader Joe's",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.282
+    },
+    {
+     "merchant": "Trader Joe's",
+     "evidence": "TRADER JOE S",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Trader Joe's",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.618
+    },
+    {
+     "merchant": "Trader Joe's",
+     "evidence": "TRADER JOE S",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Trader Joe's",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.641
+    }
+   ]
+  },
+  {
+   "descriptor": "SUPERMERCADO BOA SAFRA",
+   "truth": "Boa Safra",
+   "accept": [
+    "Boa Safra",
+    "Supermercado Boa Safra"
+   ],
+   "truth_kind": "other",
+   "baseline": "Supermercado Boa Safra",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Supermercado Boa Safra",
+     "evidence": "SUPERMERCADO BOA SAFRA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Supermercado Boa Safra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.244
+    },
+    {
+     "merchant": "Supermercado Boa Safra",
+     "evidence": "SUPERMERCADO BOA SAFRA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Supermercado Boa Safra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.715
+    },
+    {
+     "merchant": "Supermercado Boa Safra",
+     "evidence": "SUPERMERCADO BOA SAFRA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Supermercado Boa Safra",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.751
+    }
+   ]
+  },
+  {
+   "descriptor": "ASSAI ATACADISTA LJ 112",
+   "truth": "Assaí",
+   "accept": [
+    "Assaí",
+    "Assai",
+    "Assaí Atacadista",
+    "Assai Atacadista"
+   ],
+   "truth_kind": "other",
+   "baseline": "Assai Atacadista Lj 112",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Assai Atacadista",
+     "evidence": "ASSAI ATACADISTA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Assai Atacadista",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.35
+    },
+    {
+     "merchant": "Assai Atacadista",
+     "evidence": "ASSAI ATACADISTA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Assai Atacadista",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.728
+    },
+    {
+     "merchant": "Assai Atacadista",
+     "evidence": "ASSAI ATACADISTA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Assai Atacadista",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.729
+    }
+   ]
+  },
+  {
+   "descriptor": "POS PURCHASE KROGER #456",
+   "truth": "Kroger",
+   "accept": [
+    "Kroger"
+   ],
+   "truth_kind": "other",
+   "baseline": "Kroger",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Kroger",
+     "evidence": "KROGER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Kroger",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.159
+    },
+    {
+     "merchant": "Kroger",
+     "evidence": "KROGER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Kroger",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.56
+    },
+    {
+     "merchant": "Kroger",
+     "evidence": "KROGER",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Kroger",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.579
+    }
+   ]
+  },
+  {
+   "descriptor": "WM SUPERCENTER #3301",
+   "truth": "Walmart",
+   "accept": [
+    "Walmart"
+   ],
+   "truth_kind": "other",
+   "baseline": "Wm Supercenter",
+   "in_examples": false,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Walmart Supercenter",
+     "evidence": "WM SUPERCENTER",
+     "kind": "other",
+     "error": "",
+     "check": "\"Walmart Supercenter\" is not spelled out in \"WM SUPERCENTER\"",
+     "shown": "Wm Supercenter",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 1.233
+    },
+    {
+     "merchant": "Walmart Supercenter",
+     "evidence": "WM SUPERCENTER",
+     "kind": "other",
+     "error": "",
+     "check": "\"Walmart Supercenter\" is not spelled out in \"WM SUPERCENTER\"",
+     "shown": "Wm Supercenter",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.634
+    },
+    {
+     "merchant": "Walmart Supercenter",
+     "evidence": "WM SUPERCENTER",
+     "kind": "other",
+     "error": "",
+     "check": "\"Walmart Supercenter\" is not spelled out in \"WM SUPERCENTER\"",
+     "shown": "Wm Supercenter",
+     "outcome": "rejected",
+     "shown_score": "wrong",
+     "seconds": 0.61
+    }
+   ]
+  },
+  {
+   "descriptor": "TARGET 00012345",
+   "truth": "Target",
+   "accept": [
+    "Target"
+   ],
+   "truth_kind": "other",
+   "baseline": "Target",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Target",
+     "evidence": "TARGET",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Target",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.052
+    },
+    {
+     "merchant": "Target",
+     "evidence": "TARGET",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Target",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.468
+    },
+    {
+     "merchant": "Target",
+     "evidence": "TARGET",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Target",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.473
+    }
+   ]
+  },
+  {
+   "descriptor": "DROGARIA BOM CUIDADO",
+   "truth": "Drogaria Bom Cuidado",
+   "accept": [
+    "Drogaria Bom Cuidado",
+    "Bom Cuidado"
+   ],
+   "truth_kind": "other",
+   "baseline": "Drogaria Bom Cuidado",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Drogaria Bom Cuidado",
+     "evidence": "DROGARIA BOM CUIDADO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Drogaria Bom Cuidado",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.248
+    },
+    {
+     "merchant": "Drogaria Bom Cuidado",
+     "evidence": "DROGARIA BOM CUIDADO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Drogaria Bom Cuidado",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.707
+    },
+    {
+     "merchant": "Drogaria Bom Cuidado",
+     "evidence": "DROGARIA BOM CUIDADO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Drogaria Bom Cuidado",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.708
+    }
+   ]
+  },
+  {
+   "descriptor": "SQ *CORNER BEAN CAFE",
+   "truth": "Corner Bean Cafe",
+   "accept": [
+    "Corner Bean Cafe",
+    "Corner Bean"
+   ],
+   "truth_kind": "other",
+   "baseline": "Corner Bean Cafe",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "CORNER BEAN CAFE",
+     "evidence": "CORNER BEAN CAFE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Corner Bean Cafe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.252
+    },
+    {
+     "merchant": "CORNER BEAN CAFE",
+     "evidence": "CORNER BEAN CAFE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Corner Bean Cafe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.705
+    },
+    {
+     "merchant": "CORNER BEAN CAFE",
+     "evidence": "CORNER BEAN CAFE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Corner Bean Cafe",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.696
+    }
+   ]
+  },
+  {
+   "descriptor": "TST* LUCKY PIZZA",
+   "truth": "Lucky Pizza",
+   "accept": [
+    "Lucky Pizza"
+   ],
+   "truth_kind": "other",
+   "baseline": "Lucky Pizza",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "LUCKY PIZZA",
+     "evidence": "LUCKY PIZZA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lucky Pizza",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.206
+    },
+    {
+     "merchant": "LUCKY PIZZA",
+     "evidence": "LUCKY PIZZA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lucky Pizza",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.538
+    },
+    {
+     "merchant": "LUCKY PIZZA",
+     "evidence": "LUCKY PIZZA",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lucky Pizza",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.577
+    }
+   ]
+  },
+  {
+   "descriptor": "IFD*BURGUER DO BAIRRO",
+   "truth": "Burguer do Bairro",
+   "accept": [
+    "Burguer do Bairro",
+    "iFood"
+   ],
+   "truth_kind": "other",
+   "baseline": "Burguer Do Bairro",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "BURGUER DO BAIRRO",
+     "evidence": "BURGUER DO BAIRRO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Burguer Do Bairro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.218
+    },
+    {
+     "merchant": "BURGUER DO BAIRRO",
+     "evidence": "BURGUER DO BAIRRO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Burguer Do Bairro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.699
+    },
+    {
+     "merchant": "BURGUER DO BAIRRO",
+     "evidence": "BURGUER DO BAIRRO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Burguer Do Bairro",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.666
+    }
+   ]
+  },
+  {
+   "descriptor": "MERCADOLIVRE*3PRODUTOS",
+   "truth": "Mercado Livre",
+   "accept": [
+    "Mercado Livre",
+    "MercadoLivre"
+   ],
+   "truth_kind": "other",
+   "baseline": "Mercadolivre",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Mercado Livre",
+     "evidence": "MERCADOLIVRE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Mercado Livre",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.139
+    },
+    {
+     "merchant": "Mercado Livre",
+     "evidence": "MERCADOLIVRE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Mercado Livre",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.628
+    },
+    {
+     "merchant": "Mercado Livre",
+     "evidence": "MERCADOLIVRE",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Mercado Livre",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.577
+    }
+   ]
+  },
+  {
+   "descriptor": "LOJAS AMERICANAS",
+   "truth": "Americanas",
+   "accept": [
+    "Americanas",
+    "Lojas Americanas"
+   ],
+   "truth_kind": "other",
+   "baseline": "Lojas Americanas",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Lojas Americanas",
+     "evidence": "LOJAS AMERICANAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lojas Americanas",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.175
+    },
+    {
+     "merchant": "Lojas Americanas",
+     "evidence": "LOJAS AMERICANAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lojas Americanas",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.668
+    },
+    {
+     "merchant": "Lojas Americanas",
+     "evidence": "LOJAS AMERICANAS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Lojas Americanas",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.679
+    }
+   ]
+  },
+  {
+   "descriptor": "DECATHLON BR",
+   "truth": "Decathlon",
+   "accept": [
+    "Decathlon"
+   ],
+   "truth_kind": "other",
+   "baseline": "Decathlon",
+   "in_examples": true,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Decathlon",
+     "evidence": "DECATHLON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Decathlon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.077
+    },
+    {
+     "merchant": "Decathlon",
+     "evidence": "DECATHLON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Decathlon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.54
+    },
+    {
+     "merchant": "Decathlon",
+     "evidence": "DECATHLON",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Decathlon",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.537
+    }
+   ]
+  },
+  {
+   "descriptor": "7-ELEVEN 34012",
+   "truth": "7-Eleven",
+   "accept": [
+    "7-Eleven"
+   ],
+   "truth_kind": "other",
+   "baseline": "7-Eleven",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "7-ELEVEN",
+     "evidence": "7-ELEVEN",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "7-ELEVEN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.127
+    },
+    {
+     "merchant": "7-ELEVEN",
+     "evidence": "7-ELEVEN",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "7-ELEVEN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.603
+    },
+    {
+     "merchant": "7-ELEVEN",
+     "evidence": "7-ELEVEN",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "7-ELEVEN",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.62
+    }
+   ]
+  },
+  {
+   "descriptor": "SHELL OIL 57444123",
+   "truth": "Shell",
+   "accept": [
+    "Shell",
+    "Shell Oil"
+   ],
+   "truth_kind": "other",
+   "baseline": "Shell Oil",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Shell Oil",
+     "evidence": "SHELL OIL",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Shell Oil",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.109
+    },
+    {
+     "merchant": "Shell Oil",
+     "evidence": "SHELL OIL",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Shell Oil",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.518
+    },
+    {
+     "merchant": "Shell Oil",
+     "evidence": "SHELL OIL",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Shell Oil",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.502
+    }
+   ]
+  },
+  {
+   "descriptor": "SP * MONOGRAM GOODS",
+   "truth": "Monogram Goods",
+   "accept": [
+    "Monogram Goods"
+   ],
+   "truth_kind": "other",
+   "baseline": "Monogram Goods",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Monogram Goods",
+     "evidence": "MONOGRAM GOODS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Monogram Goods",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.026
+    },
+    {
+     "merchant": "Monogram Goods",
+     "evidence": "MONOGRAM GOODS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Monogram Goods",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.507
+    },
+    {
+     "merchant": "Monogram Goods",
+     "evidence": "MONOGRAM GOODS",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Monogram Goods",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.52
+    }
+   ]
+  },
+  {
+   "descriptor": "PAYPAL *STEAM GAMES 4025550134",
+   "truth": "Steam",
+   "accept": [
+    "Steam",
+    "Steam Games",
+    "Valve"
+   ],
+   "truth_kind": "other",
+   "baseline": "Steam Games",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Steam Games",
+     "evidence": "STEAM GAMES",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam Games",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.067
+    },
+    {
+     "merchant": "Steam Games",
+     "evidence": "STEAM GAMES",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam Games",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.513
+    },
+    {
+     "merchant": "Steam Games",
+     "evidence": "STEAM GAMES",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam Games",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.534
+    }
+   ]
+  },
+  {
+   "descriptor": "STEAMGAMES.COM 425-555-0190",
+   "truth": "Steam",
+   "accept": [
+    "Steam",
+    "Steam Games"
+   ],
+   "truth_kind": "other",
+   "baseline": "Steamgames",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Steam",
+     "evidence": "STEAM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.072
+    },
+    {
+     "merchant": "Steam",
+     "evidence": "STEAM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.519
+    },
+    {
+     "merchant": "Steam",
+     "evidence": "STEAM",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Steam",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.527
+    }
+   ]
+  },
+  {
+   "descriptor": "EBANX*AIRBNB",
+   "truth": "Airbnb",
+   "accept": [
+    "Airbnb"
+   ],
+   "truth_kind": "other",
+   "baseline": "Airbnb",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "Airbnb",
+     "evidence": "AIRBNB",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Airbnb",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.147
+    },
+    {
+     "merchant": "Airbnb",
+     "evidence": "AIRBNB",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Airbnb",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.595
+    },
+    {
+     "merchant": "Airbnb",
+     "evidence": "AIRBNB",
+     "kind": "loan_or_rent",
+     "error": "",
+     "check": "ok",
+     "shown": "Airbnb",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.621
+    }
+   ]
+  },
+  {
+   "descriptor": "VENMO PAYMENT 2125550177",
+   "truth": "Venmo",
+   "accept": [
+    "Venmo"
+   ],
+   "truth_kind": "other",
+   "baseline": "Venmo Payment",
+   "in_examples": true,
+   "baseline_score": "wrong",
+   "runs": [
+    {
+     "merchant": "Venmo",
+     "evidence": "VENMO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Venmo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.066
+    },
+    {
+     "merchant": "Venmo",
+     "evidence": "VENMO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Venmo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.528
+    },
+    {
+     "merchant": "Venmo",
+     "evidence": "VENMO",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "Venmo",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.545
+    }
+   ]
+  },
+  {
+   "descriptor": "INTUIT *TURBOTAX",
+   "truth": "TurboTax",
+   "accept": [
+    "TurboTax",
+    "Intuit",
+    "Intuit TurboTax"
+   ],
+   "truth_kind": "other",
+   "baseline": "Intuit Turbotax",
+   "in_examples": false,
+   "baseline_score": "correct",
+   "runs": [
+    {
+     "merchant": "TurboTax",
+     "evidence": "TURBOTAX",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TurboTax",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 1.106
+    },
+    {
+     "merchant": "TurboTax",
+     "evidence": "TURBOTAX",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TurboTax",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.487
+    },
+    {
+     "merchant": "TurboTax",
+     "evidence": "TURBOTAX",
+     "kind": "other",
+     "error": "",
+     "check": "ok",
+     "shown": "TurboTax",
+     "outcome": "correct",
+     "shown_score": "correct",
+     "seconds": 0.524
+    }
+   ]
+  }
+ ]
+}

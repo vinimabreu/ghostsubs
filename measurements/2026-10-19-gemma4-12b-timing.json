@@ -1,0 +1,98 @@
+{
+ "settings": {
+  "date": "2026-10-19",
+  "started": "2026-10-19T21:00:05-03:00",
+  "model": "gemma4:12b",
+  "digest": "6114515d63c17436a7c0417d82820ac65ad643e2806c5a3c89cb62846436ed0b",
+  "prompt": "names-v2",
+  "temperature": 0,
+  "think": false,
+  "host": "http://127.0.0.1:11434",
+  "runs": 3,
+  "warm_up_seconds": 0.59,
+  "python": "3.14.7",
+  "machine": "Darwin 27.0.0 arm64",
+  "code_sha256": {
+   "__init__.py": "fc298371b379",
+   "__main__.py": "13a1a5b340cd",
+   "clean.py": "6c8bf8d60815",
+   "cli.py": "07abf73babc4",
+   "model.py": "a66021461ade",
+   "naming.py": "7018255e1bdd",
+   "notify.py": "a25f6ac55bdd",
+   "recur.py": "9f3f366de1eb",
+   "render.py": "87dcac8da230",
+   "statement.py": "2790e116f1cc",
+   "watch.py": "5647dc3e51b7"
+  }
+ },
+ "rows": [
+  {
+   "file": "bank-a.csv",
+   "cold": {
+    "seconds": 29.78,
+    "asked": 28,
+    "cached": 0
+   },
+   "cached": {
+    "seconds": 0.11,
+    "asked": 0,
+    "cached": 28
+   },
+   "no_model": {
+    "seconds": 0.08
+   }
+  },
+  {
+   "file": "card-b.csv",
+   "cold": {
+    "seconds": 43.75,
+    "asked": 44,
+    "cached": 0
+   },
+   "cached": {
+    "seconds": 0.3,
+    "asked": 0,
+    "cached": 44
+   },
+   "no_model": {
+    "seconds": 0.3
+   }
+  },
+  {
+   "file": "export-c.csv",
+   "cold": {
+    "seconds": 17.1,
+    "asked": 17,
+    "cached": 0
+   },
+   "cached": {
+    "seconds": 0.08,
+    "asked": 0,
+    "cached": 17
+   },
+   "no_model": {
+    "seconds": 0.08
+   }
+  },
+  {
+   "file": "bank-d.csv",
+   "cold": {
+    "seconds": 11.15,
+    "asked": 11,
+    "cached": 0
+   },
+   "cached": {
+    "seconds": 0.08,
+    "asked": 0,
+    "cached": 11
+   },
+   "no_model": {
+    "seconds": 0.07
+   }
+  }
+ ],
+ "cold_total_seconds": 101.78,
+ "cached_total_seconds": 0.57,
+ "asked_total": 100
+}
